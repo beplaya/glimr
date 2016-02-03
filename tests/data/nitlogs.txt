@@ -1,11 +1,11 @@
 commit 2f236253b3ba306157cff82f5f405d00648d46f0
-Author: Grant James <grant.james@cardinalhealth.com>
+Author: TEST AuTHOR0 <author0@email.net>
 Date:   Wed Feb 3 17:58:43 2016 -0500
 
     glimr added
 
 commit 637f934b9be197e1310624bed4d361092798a4bf
-Author: Grant James <grant.james@cardinalhealth.com>
+Author: T3ST AuTttHOR1 <testa1@thing.com>
 Date:   Wed Feb 3 17:57:11 2016 -0500
 
     npmignore
