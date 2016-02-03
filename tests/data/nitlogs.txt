@@ -1,0 +1,2434 @@
+commit 2f236253b3ba306157cff82f5f405d00648d46f0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 17:58:43 2016 -0500
+
+    glimr added
+
+commit 637f934b9be197e1310624bed4d361092798a4bf
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 17:57:11 2016 -0500
+
+    npmignore
+
+commit ba89c155904dceda98546db2fbd0c666b13edb7d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 17:51:32 2016 -0500
+
+    package.json
+
+commit b9e8b0d9a7bcbc5bfe492eedc701b40719d87837
+Merge: f742d52 4ee4f76
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 17:00:36 2016 -0500
+
+    Merge pull request #23 from beplaya/develop
+
+    update dev
+
+commit 4ee4f7658f6ef29d585f6a84e7d20acf25cc2c03
+Merge: f1f302a f742d52
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 17:00:09 2016 -0500
+
+    Merge pull request #62 from cah-grantjames/develop
+
+    Merge pull request #22 from beplaya/develop
+
+commit f1f302af105455a689f1b08105a888c819f2e5b2
+Merge: ca1a9ab 27a17dd
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 16:57:23 2016 -0500
+
+    Merge pull request #61 from cah-grantjames/feature/NIT-3
+
+    NIT-3 added first mocha test
+
+commit 27a17ddd7f7aca82905faf60697a0982a41b0a22
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 16:56:13 2016 -0500
+
+    NIT-3 added first mocha test
+
+commit f742d52e01613b78dd195ad7c80108c4f9c733c1
+Merge: 5111914 ca1a9ab
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 16:41:58 2016 -0500
+
+    Merge pull request #22 from beplaya/develop
+
+    update dev
+
+commit ca1a9ab1f90368d4778cd238ba5e9b97b1f313af
+Merge: 793013f 7a882b8
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 16:41:31 2016 -0500
+
+    Merge pull request #60 from cah-grantjames/feature/NIT-2
+
+    Feature/nit 2
+
+commit 7a882b87b5832688e5bb7af7e7118d19e3050911
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Feb 3 16:39:00 2016 -0500
+
+    NIT-2 server update interval 30 seconds
+
+commit b509119454e93fad4c458ec14249a8f4f1db2dfc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Feb 2 13:32:39 2016 -0500
+
+    NIT-2 wip port per project
+
+commit 5111914397ba3e7b55f3f5bbafbcfdc299b78a2c
+Merge: 0ddae54 793013f
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 22:02:29 2016 -0500
+
+    Merge pull request #21 from beplaya/develop
+
+    merge
+
+commit 793013f722b36baa320fd7c0f8b2bd7130617407
+Merge: cdb86c3 b6c19bb
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 22:01:42 2016 -0500
+
+    Merge pull request #59 from cah-grantjames/feature/NIT-2
+
+    Feature/nit 2 SOCKET!!
+
+commit b6c19bbafe3492cd3577870fab22ca7e9b9fc000
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 21:59:45 2016 -0500
+
+    NIT-2 css styling
+
+commit d865063f201d255394aad848e5b09ab0fcd2ee54
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 21:46:02 2016 -0500
+
+    NIT-2 fomat comments
+
+commit 1fe9cc023848c2be93af12f1b6a865b3ee921aeb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 21:28:18 2016 -0500
+
+    NIT-2 format cache age. url fixed.
+
+commit 8487ed17489bc7faa80bfaeb2c68601ae3d0cc6d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 20:49:35 2016 -0500
+
+    NIT-2 better updates. less flash
+
+commit d5826697bd616e26caa8eabb11fd923e4026b462
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 20:19:39 2016 -0500
+
+    NIT-2 wip update pending
+
+commit 74d4f1d7814119223a2963a5e72bac6a1149f1ae
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 20:12:24 2016 -0500
+
+    NIT-2 use socket for com
+
+commit 5dd5975c82b3b851f3eebeb8de7d998c153a30ed
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 19:56:10 2016 -0500
+
+    NIT-2 projectkey to socket mapped
+
+commit 360c38df97c325ce1914c9a68a3be61d178dcd7a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 18:05:04 2016 -0500
+
+    NIT-2 css
+
+commit 9f15eb22f3cfe4d7c31a708d33bca24fbe7c15ec
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 17:59:18 2016 -0500
+
+    NIT-2 updated bower
+
+commit 86ccd9b23814e6da71170a90fafef09ce3e6f2d6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 17:56:07 2016 -0500
+
+    NIT-2 fixed one loine log counter
+
+commit d6deffe92283ac0f5d348761e720f01805f2c789
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 17:51:15 2016 -0500
+
+    NIT-2 clear description
+
+commit 29fd1acd86b27541c379815c2882b21ffb588a60
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 17:49:23 2016 -0500
+
+    NIT-2 sanitized
+
+commit d1f6eddcb827768d8f56d9c3447deb932ba4b782
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 17:22:21 2016 -0500
+
+    NIT-2 wip better response
+
+commit fcc46abe0a16d6949ecf106fd9771154f508d02b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 16:42:49 2016 -0500
+
+    NIT-2 wip better responsiveness in server
+
+commit 552936c8d86fd1076f973a233c9138c525723900
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 16:14:33 2016 -0500
+
+    NIT-2 lowered delays
+
+commit 7243a9bf16683d9b4bda0e8abace3664b684efa7
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 16:10:52 2016 -0500
+
+    NIT-2 fixed ui for new data structure
+
+commit e98472fac53774a4aac1bf29c44c5e51621eca6a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 16:01:51 2016 -0500
+
+    NIT-2 wip cleanup
+
+commit eca7b773b861d3ff63329c22e8b1bb21ef8ed72c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 15:57:54 2016 -0500
+
+    NIT-2 nerver direct to jira
+
+commit 372a968c451934f5a956e3ccc1d3ea4a6cc2cf17
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 15:04:17 2016 -0500
+
+    NIT-2 wip nit client posts
+
+commit df5fcea94976d0bbfedc3904c2ea4a3e5a98bc33
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 13:53:50 2016 -0500
+
+    NIT-2 css
+
+commit b6c3d7c2243b8ba0fede263782213dc172ceb35b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 10:28:27 2016 -0500
+
+    NIT-2 wip css
+
+commit 8649e95478c9fea651329a90f430ad629447c120
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Feb 1 09:28:14 2016 -0500
+
+    NIT-2 wip input server
+
+commit 8b4c5f9233dd8f78a5ebd26fc79031701c104aac
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 17:57:32 2016 -0500
+
+    NIT-2 wip push notification updates. jira description is too slow
+
+commit 858d92994fc872e9a0d996c62e454b9b55c34f42
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 17:42:00 2016 -0500
+
+    NIT-2 push notifications work
+
+commit 4fd23f89343914853818284354a12f9cf03b0298
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 16:56:54 2016 -0500
+
+    NIT-2 css
+
+commit 333f3d58fcb4ee5e5a4f03d4452b150681edb4be
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 16:54:04 2016 -0500
+
+    NIT-2 desc and comments
+
+commit b8d114d6df68e3426f75dc70b5e85bd19a78d7cf
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 16:23:11 2016 -0500
+
+    NIT-2 wip stores issue.json
+
+commit 49804a9d334b7eac5193a29514889777556068ab
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 16:08:42 2016 -0500
+
+    NIT-2 basic web status and logs shown
+
+commit 1c645297bb9d29b5f8e4bcea2948f1087f05a925
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 29 11:51:34 2016 -0500
+
+    NIT-2 wip created rest path for project status and logs
+
+commit 8938c82f3cec6270d216d7633c910a1986b4fb72
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 28 13:05:34 2016 -0500
+
+    NIT-2 " CLEAN"
+
+commit 5b4dcf557d76b0b64699f60d9e831b276b3e53b0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 28 13:03:47 2016 -0500
+
+    NIT-2 save status data as json
+
+commit 458f9ce52939b3ff2205a7e0c3ba03a1f5979a3c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 28 12:44:09 2016 -0500
+
+    NIT-2 jsonify log one lines data
+
+commit e50dd5bb70462dc02a20fdf782e9d3429d6334de
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 15:49:35 2016 -0500
+
+    NIT-2 fixed cache location
+
+commit 3d3c692af97d4ad628492a7c91569154aca07eb9
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 15:45:28 2016 -0500
+
+    NIT-2 proj cache in web
+
+commit a7b1e0ab282080ea99326795375de8e36ac06df8
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 15:42:43 2016 -0500
+
+    NIT-2 project cache per project
+
+commit 6cd9ae24a89b8e7c33dd6aca6b63fc7d8035719f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 13:57:39 2016 -0500
+
+    NIT-2 ignore data dir
+
+commit f238af262a08f26dd9d80a6052bb19d6daf0705e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 13:56:12 2016 -0500
+
+    NIT-2 creates status and log one line dta files
+
+commit 48189db8bf06784817806902bb73e0d49c55827f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 13:55:57 2016 -0500
+
+    NIT-2 creates status and log one line dta files
+
+commit 3157a3d1b238479a34db36b9351f028c731e1b31
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 13:55:54 2016 -0500
+
+    NIT-2 creates status and log one line dta files
+
+commit 0046731cc702f1dbc771228ad9992b3f44877470
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 13:42:04 2016 -0500
+
+    NIT-2 wip. data files
+
+commit 0ddae54bad9c51bc4213b484c1322f897239b686
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Jan 27 09:43:27 2016 -0500
+
+    added start of web
+
+commit cdb86c3e84c0d37b3287ca5e84a57f8477d967e9
+Merge: 599a16e 67bcfcd
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:46:17 2016 -0500
+
+    Merge pull request #58 from cah-grantjames/develop
+
+    less white space
+
+commit 67bcfcdf8074881d98a6414acdd4230ff2d46347
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:46:04 2016 -0500
+
+    less white space
+
+commit 599a16e35876eabcb424ae910f8dcf3807d7cea7
+Merge: e3510d1 a5dd1cf
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:41:31 2016 -0500
+
+    Merge pull request #57 from cah-grantjames/develop
+
+    hr
+
+commit a5dd1cf4f7bcb095fefba39e0f1b844c9b9001be
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:41:15 2016 -0500
+
+    hr
+
+commit e3510d130e8f840599780aa2bea7b9f2cb1555c8
+Merge: 7b316c8 12151f8
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:37:58 2016 -0500
+
+    Merge pull request #56 from cah-grantjames/develop
+
+    comments in nerver screen
+
+commit 12151f8e225fefdb810c8c5118b0345878b37e5f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:37:25 2016 -0500
+
+    mkc clears cache
+
+commit 57c046e53aafe480135b085e246f26d406ef0537
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:25:28 2016 -0500
+
+    comments in nerver screen
+
+commit 7b316c85e59ea7ca53d5f59c05602b895f441f10
+Merge: e9f5f44 da49d95
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:19:02 2016 -0500
+
+    Merge pull request #55 from cah-grantjames/develop
+
+    fixed clearscreen
+
+commit da49d9537e1f3bfce37e653709d2e3b93edac3b6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:18:14 2016 -0500
+
+    clearscreen
+
+commit e9f5f44323e1c29ff063fc9968b0875290a46711
+Merge: 0d2f9a5 60c1caf
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:17:20 2016 -0500
+
+    Merge pull request #54 from cah-grantjames/develop
+
+    fixed mkc
+
+commit 60c1caf05b5a1472e9adff62fee8d9988534e321
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:17:00 2016 -0500
+
+    fixed mkc error
+
+commit ff269feeef5e9adbc2912bb624434dcb435e03dc
+Merge: 3f0a15d 0d2f9a5
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:08:31 2016 -0500
+
+    Merge pull request #20 from beplaya/develop
+
+    merge
+
+commit 0d2f9a5b624bb3add0e115a47d5e42b3a14bdca0
+Merge: 02105f9 3f0a15d
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:07:59 2016 -0500
+
+    Merge pull request #53 from cah-grantjames/develop
+
+    nerver descript issue caching. per project cmds
+
+commit 3f0a15d200517e12edf3f1bdafaf5647417be2f5
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 16:07:03 2016 -0500
+
+    show description in nerver screen
+
+commit 7cf6e8ff7d1e0ef852ab0c134966113273348ec0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 15:47:28 2016 -0500
+
+    skip nira if not logged in
+
+commit 7c9b0e56c2290e08080a94223f7ab8111baf53f2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 15:38:57 2016 -0500
+
+    caches issues
+
+commit 263b145f800c0b25e3115c8885825307d6be2413
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 14:25:00 2016 -0500
+
+    wip nerver jira stuff
+
+commit 0b3cb9f280daa211af4d08fc93ea0547ea44b172
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 13:30:17 2016 -0500
+
+    don't delete other project's commands files
+
+commit 3651c175bdaeee6a683c9c0a33a0ae6056a5e792
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 13:21:47 2016 -0500
+
+    wip nerver per project listening
+
+commit 3ec6417b123c5aa5132b137e09343b420368045d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 10:14:30 2016 -0500
+
+    status min period updates
+
+commit 7c76e9f435793401aa570169b86f598c1b4fc132
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 10:06:29 2016 -0500
+
+    prevent too frequent status print
+
+commit e843ae81ce6647fd8608c9c4bb620b6cadeaf4c7
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 22 09:54:00 2016 -0500
+
+    printer hr2
+
+commit 02105f92fe90b1d87c88c9fc632e4470a23a06dd
+Merge: b1136a3 84a7894
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:44:13 2016 -0500
+
+    Merge pull request #52 from cah-grantjames/develop
+
+    self.isDetached = false;
+
+commit 84a78946a35c5acafc20c9b3f1e5a91aac6d2d7a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:43:33 2016 -0500
+
+    resets isdetached
+
+commit b1136a3945182f065a2e9151c3e66eafb59c93c7
+Merge: e715549 99f7a9d
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:40:02 2016 -0500
+
+    Merge pull request #51 from cah-grantjames/develop
+
+    nerver updates
+
+commit 99f7a9d4e5290a4170fde859fd06dd7d15f5bbb2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:34:25 2016 -0500
+
+    timeout based on time not count
+
+commit 54042bb578a38d686448549afb33dc966c0cde9e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:34:09 2016 -0500
+
+    [develop] README update.
+
+commit 2e2df21238132ad32cebdfdcdf0c345b4e41aa31
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:18:50 2016 -0500
+
+    pushpin
+
+commit 547d08f49664f74c4b0533d1396a501fe32d59eb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 21 16:08:41 2016 -0500
+
+    support for detached state
+
+commit 682e6124d61299de7552f19c9a7901b93935be34
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:56:43 2016 -0500
+
+    improved clearing
+
+commit 03524a193ac62990d9ec5376ed11826b689f929d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:49:10 2016 -0500
+
+    better clearing
+
+commit 656c65e36857330acab26afa844e154a5f9e2afe
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:33:39 2016 -0500
+
+    fixed clear screen???
+
+commit 18c5ec460b4bc3e7cd47dd72c019535ffefc67d9
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:22:59 2016 -0500
+
+    reset
+
+commit c99ec8cabb3cf03e3a4292c482b3040925b3c846
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:16:04 2016 -0500
+
+    unicodes for nerver
+
+commit c90f8182ac471cd651fc039272ca24cc9c2bf3ed
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 11:01:21 2016 -0500
+
+    fixed clear line
+
+commit c02040c94938500969405cff1765c6ba400a2b4b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 10:55:49 2016 -0500
+
+    fixed no cmd folder bug
+
+commit e7f23c9ba145814540e18078fa45ca6311458a21
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 15 10:48:39 2016 -0500
+
+    scrolling nerver log
+
+commit e7155498dc0c8d314c579f824a89723fa930dedb
+Merge: b1205ad 7322274
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 15:10:05 2016 -0500
+
+    Merge pull request #50 from cah-grantjames/develop
+
+    auto status
+
+commit 732227480d7c08213a189fbcb8d01183c2390ab3
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 15:05:17 2016 -0500
+
+    silent nerver
+
+commit 53229a329d36748d81ae4741c629292490eca626
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 14:27:36 2016 -0500
+
+    more status delayed updates in nerver
+
+commit 86907013e694829237cd89d09a94e4ddb753fd19
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 14:23:23 2016 -0500
+
+    133 delay
+
+commit fd980cda2711bec09dcc6eda76fc205f10fea23a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 14:22:29 2016 -0500
+
+    online log table
+
+commit e64e1fdd5d7dae68a82903ed7c38cd7cba3a1beb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 14:07:38 2016 -0500
+
+    one line logs 7
+
+commit 4e9bf073fb9cdac4c45dd8f634e2caf57089125c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Jan 8 14:01:36 2016 -0500
+
+    added auto refresh
+
+commit b1205adb92c8082a4fba347050cd0a356436d40f
+Merge: 5dc2d57 622dc0a
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Jan 7 15:45:39 2016 -0500
+
+    Merge pull request #49 from cah-grantjames/develop
+
+    nerver status
+
+commit 622dc0a77b363f5197a974d0a2cc229c5a4014ce
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 7 15:44:27 2016 -0500
+
+    status does not wait for response file
+
+commit e3474edc25d1a4b349124d1ef9891fa87d6ef4a7
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 7 15:37:39 2016 -0500
+
+    show l1 for nerver status
+
+commit 2d36789fd1ecf453f8e1f89417a0a5f6e683544b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 7 15:35:03 2016 -0500
+
+    nerverstatus for git commands too
+
+commit 3d1a543c10fa37621a0e47a4edb22b3623e84326
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Jan 7 15:32:23 2016 -0500
+
+    added nerver status
+
+commit 5dc2d570c30694466a38c6a92f1b86aa686cd599
+Merge: 420518b 1020f58
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 12:01:52 2015 -0500
+
+    Merge pull request #48 from cah-grantjames/develop
+
+    s
+
+commit 1020f5811d29c77229164e1b37534c27a2f9df6b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 12:01:21 2015 -0500
+
+    [develop] README update.
+
+commit a37799ae5c0cb6b4f9754d5d6da48a07b50415bf
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 12:00:16 2015 -0500
+
+    [develop] README update.
+
+commit 420518bef0370ae9178600ce02d6d543eee2f8a5
+Merge: 40dd974 88256cb
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 11:46:10 2015 -0500
+
+    Merge pull request #47 from cah-grantjames/develop
+
+    comment mkc
+
+commit 88256cb4e0cd2382067161754f2763a391811785
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 11:45:25 2015 -0500
+
+    [develop] README update.
+
+commit b644b0913b9a1c1d7084103ba806f6865841b01c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 11:43:55 2015 -0500
+
+    [develop] quick commit.
+
+commit 69e6a231835db88d9469c01b8ab5cfef1a8d7eab
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 11:43:01 2015 -0500
+
+    can create comment
+
+commit 7b206600bdf096515e9605430a49ec226e131ee0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 11:01:25 2015 -0500
+
+    show host when login
+
+commit 4349ffd51c64f2044b93d10cec09f2c3e628b628
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 10:57:33 2015 -0500
+
+    nira login auth
+
+commit a7ba27969f564e3a99dc7e7157fc390217f854dd
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 23 10:40:42 2015 -0500
+
+    mkdirs
+
+commit 40dd9746181d5f552b4bc1594a9da9720218387d
+Merge: b3faa5e 09581a4
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:17:41 2015 -0500
+
+    Merge pull request #46 from cah-grantjames/develop
+
+    ads
+
+commit 09581a48f23a9731e6282becc6e112e8b0d54d21
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:16:12 2015 -0500
+
+    [develop] quick commit.
+
+commit 22c738a471ae96a55b5b1f3512b9120b4579a6b0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:16:07 2015 -0500
+
+    [develop] README update.
+
+commit f17be877c20eda0339b03eeb593a8285d146a043
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:14:33 2015 -0500
+
+    [develop] quick commit.
+
+commit 902ca77715e87f0788d2bf559915523572cc4c8d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:08:35 2015 -0500
+
+    [develop] quick commit.
+
+commit 6809d24a1aed4b521b00294664847777ec48fc02
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:02:22 2015 -0500
+
+    sfcis
+
+commit e893a3bd2d227b3e68015f6b8bc8f7137ec4cd6b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Dec 17 13:01:08 2015 -0500
+
+    sfcis
+
+commit b3faa5e1b7b1135e4c9dc698200e9970d328d113
+Merge: 7e13716 6bc3e27
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Dec 16 16:25:02 2015 -0500
+
+    Merge pull request #45 from cah-grantjames/develop
+
+    emoji and ccf stuff
+
+commit 6bc3e27a5150c98985fee169be122f8753c71d3c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 16 16:18:09 2015 -0500
+
+    [develop] quick commit.
+
+commit ea747ccbfb143f3a124b3579ce3c5fd377af3989
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Dec 16 16:17:51 2015 -0500
+
+    [develop] quick commit.
+
+commit aeafb09bc80c3b8b96598f6419de5962b444de0a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:49:47 2015 -0500
+
+    [develop] quick commit.
+
+commit aee64a155cbad9e7e7e7958164c11390008e3ae0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:43:05 2015 -0500
+
+    [develop] quick commit.
+
+commit 9ac7164e119b8e7cf302e00462a56ffafbac8bef
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:35:22 2015 -0500
+
+    [develop] quick commit.
+
+commit 94efaf77fc94d4feb27ca408e9494c2fda74c21d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:30:27 2015 -0500
+
+    [develop] quick commit.
+
+commit a5248211ca1cff895f588e61efba67775115ad2e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:28:16 2015 -0500
+
+    [develop] quick commit.
+
+commit 4772122dbe37b6b5e8fbef65e0c22115a5e04ede
+Merge: 5b3eb52 0f28a04
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:27:23 2015 -0500
+
+    Merge branch 'develop' of github.com:cah-grantjames/Nit into develop
+
+commit 5b3eb52e3371dd8ae7f07a27b03d5a3a22281785
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 18:27:16 2015 -0500
+
+    wip moving averages
+
+commit dbb3a79af6f0545f1385cafa5b0f245e164c4def
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Dec 1 16:16:18 2015 -0500
+
+    [develop] quick commit.
+
+commit 0f28a0480b3325a4a2f0d9bda0bd4986ff1e6ad4
+Merge: 7153e8e 7e13716
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Nov 25 14:25:50 2015 -0500
+
+    Merge pull request #19 from beplaya/develop
+
+    asdMerge pull request #44 from cah-grantjames/develop
+
+commit 7e1371632c9ed35f852586d5649c6086a4c9cdd2
+Merge: 329250f 7153e8e
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Wed Nov 25 14:25:14 2015 -0500
+
+    Merge pull request #44 from cah-grantjames/develop
+
+    .open
+
+commit 7153e8e662ce1cd1c50618854e0adb356d5b3e60
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 25 10:15:10 2015 -0500
+
+    [develop] quick commit.
+
+commit 5abfcfaff9cc908a93991821b8002b42461a7c2b
+Merge: ffd3568 329250f
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Wed Nov 25 10:14:25 2015 -0500
+
+    Merge pull request #18 from beplaya/develop
+
+    c
+
+commit 329250f2531618aab34ba93cea52e912d9a5d35f
+Author: gjinfo <beplaya@gmail.com>
+Date:   Tue Nov 24 23:42:03 2015 -0500
+
+    [develop] quick commit.
+
+commit 84e4e153ffca145f339ec7797f91ee1992befb39
+Author: gjinfo <beplaya@gmail.com>
+Date:   Tue Nov 24 23:41:53 2015 -0500
+
+    [develop] quick commit.
+
+commit f14c4800621cf0e00970d45bb2a68f35961fe228
+Author: gjinfo <beplaya@gmail.com>
+Date:   Tue Nov 24 23:11:21 2015 -0500
+
+    [develop] quick commit.
+
+commit 8776b29803e311d42dfb84c0990db0fc8f1bc1d1
+Author: gjinfo <beplaya@gmail.com>
+Date:   Tue Nov 24 22:58:22 2015 -0500
+
+    [develop] quick commit.
+
+commit 55f7bac0d9272d68dadd88acc9b237b648b0a40a
+Merge: 8b3b85c ffd3568
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 24 16:49:01 2015 -0500
+
+    Merge pull request #43 from cah-grantjames/develop
+
+    i
+
+commit ffd356843c3be55a496c839619ca876b3644a66e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:47:22 2015 -0500
+
+    [develop] quick commit.
+
+commit fbed8178e74377b7a2c9631ff4c5fd245b8506ff
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:45:42 2015 -0500
+
+    [develop] quick commit.
+
+commit 7d5d13d2890d355d48610b7b59686563ff15c9aa
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:44:10 2015 -0500
+
+    [develop] quick commit.
+
+commit 3f38c810c538c69ad99b688450be03df956fab63
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:42:24 2015 -0500
+
+    [develop] quick commit.
+
+commit eb91b50ed0ff0b809d5e6cb8855c4fe12100ecdc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:41:33 2015 -0500
+
+    [develop] README update.
+
+commit f2563e206d3b117d1d090fb65cc0937510f25084
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:40:28 2015 -0500
+
+    ccfgraph
+
+commit e4204618e6733553b279fd17d360a8b8c93354e0
+Merge: 220760b 8b3b85c
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:33:56 2015 -0500
+
+    Merge pull request #17 from beplaya/develop
+
+    Merge pull request #42 from cah-grantjames/develop
+
+commit 8b3b85c419c9a43cb67947b8bf5dab71b26e7a36
+Merge: b7e3613 220760b
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 24 16:33:36 2015 -0500
+
+    Merge pull request #42 from cah-grantjames/develop
+
+    stats
+
+commit 220760b56482d003a7030235787bb3836f2cb33e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:32:56 2015 -0500
+
+    cmd and readme update
+
+commit eb6544feb11981cb6892233d29849f590a9c49bc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 16:18:10 2015 -0500
+
+    bowerstuff
+
+commit 4c6e96f75c01f5d4e46d741f1e8ffd738581e5da
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 13:54:50 2015 -0500
+
+    [develop] quick commit.
+
+commit 6246f9466c515450f6a6629b85e3483499d23a07
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 12:10:18 2015 -0500
+
+    [develop] quick commit.
+
+commit 16848455537ef8668baae01004fe53555cf3d13f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 11:11:45 2015 -0500
+
+    qcf
+
+commit cf1d9106fe5025e41d379b14d245629b7742027e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 10:37:33 2015 -0500
+
+    bower init
+
+commit a8d1803c0cbeafa2409c600e7802ad25f8fab628
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 10:20:27 2015 -0500
+
+    stat fixes
+
+commit 7339f57881bd3df3ca9584d255714dfa41d41a80
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 24 10:13:48 2015 -0500
+
+    stat fixes
+
+commit ddb75d6e367198fcec7ff0059e780af94fd962ec
+Merge: 601badb b7e3613
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:51:05 2015 -0500
+
+    Merge pull request #16 from beplaya/develop
+
+    ds
+
+commit b7e3613f9797b8ad3ec8f45d30cb1289fc54c491
+Merge: 571c2c8 601badb
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 23 18:50:54 2015 -0500
+
+    Merge pull request #41 from cah-grantjames/develop
+
+    r
+
+commit 601badb3b2a0fc641eb0ed5bc4f5c00774f135c4
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:50:25 2015 -0500
+
+    [develop] quick commit.
+
+commit 571c2c8810595b691332aa796d86579aad081174
+Merge: 419f9c4 15e8c12
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 23 18:49:13 2015 -0500
+
+    Merge pull request #40 from cah-grantjames/develop
+
+    r
+
+commit 15e8c12beb4b71b32113970b251a63a90adb39f7
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:48:44 2015 -0500
+
+    [develop] README update.
+
+commit 419f9c4e1f6115799b5d32c00808795237aec4b9
+Merge: 62e6b4a 02b05f5
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 23 18:47:14 2015 -0500
+
+    Merge pull request #39 from cah-grantjames/develop
+
+    r
+
+commit 02b05f581c746cf94c7294caac409353865b9915
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:47:01 2015 -0500
+
+    [develop] README update.
+
+commit 62e6b4a440f12face1a06872480679e8fc5fa8e1
+Merge: fdbb4d0 9471c50
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 23 18:46:10 2015 -0500
+
+    Merge pull request #38 from cah-grantjames/develop
+
+    r
+
+commit 9471c50a489f2b652794bb3a75c7110857d7875f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:45:16 2015 -0500
+
+    [develop] README update.
+
+commit 5fc87877b54319ca7fb10570a3b1ed0f3634a212
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:44:31 2015 -0500
+
+    [develop] README update.
+
+commit 3b3238c9817fe6996664f63e8e125aa676053873
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:41:20 2015 -0500
+
+    [develop] README update.
+
+commit 244ddbd00e49c893d11d0208c7eb4bda5d95f43d
+Merge: 9944035 515a21d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:37:43 2015 -0500
+
+    Merge branch 'develop' of github.com:cah-grantjames/Nit into develop
+
+commit 9944035251d01eb14d63e58290503381131220a0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:37:17 2015 -0500
+
+    [develop] README update.
+
+commit 515a21d661447d5d7eb74d9cde32aa40b0bdc6f8
+Merge: d537eaa fdbb4d0
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:36:58 2015 -0500
+
+    Merge pull request #15 from beplaya/develop
+
+    Merge pull request #37 from cah-grantjames/develop
+
+commit fdbb4d0f093b1eafe97ca4c1c1ede8f54966e537
+Merge: 16955f8 d537eaa
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 23 18:36:48 2015 -0500
+
+    Merge pull request #37 from cah-grantjames/develop
+
+    lcf
+
+commit d537eaa8fd8fffb07617575cadd3d3b635e5168c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:36:16 2015 -0500
+
+    [develop] README update.
+
+commit 928040e6288114696a1b5adb4f3e34d3dc5f3bd1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:34:14 2015 -0500
+
+    [develop] README update.
+
+commit 2a0f301ece933e56d6b658c73bd10a86c75caafa
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:34:01 2015 -0500
+
+    [develop] README update.
+
+commit a9f222d80e62ac62248959c1c20a6857a304d537
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:33:15 2015 -0500
+
+    [develop] README update.
+
+commit caf8e5cebb67bf231971c7d4f4f9bd42f720afa0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:33:00 2015 -0500
+
+    [develop] README update.
+
+commit a81488c1ea370e370fa0cb20b77268c0db540c7b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:32:44 2015 -0500
+
+    [develop] README update.
+
+commit 587f1bb691b38a5b8a538ea18dd35b31042f2ba1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:32:07 2015 -0500
+
+    [develop] README update.
+
+commit fa1b8b61b1049a25524fd31c4cd6bacadda555d0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:31:41 2015 -0500
+
+    [develop] README update.
+
+commit 1427e04482671dae489b326b1ef9d1014e548900
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:28:41 2015 -0500
+
+    [develop] README update.
+
+commit a139a57c7e69f0c07f9d7f36c5a193b593d62467
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 18:23:50 2015 -0500
+
+    lcf
+
+commit f104f497d58581c322a68fd93ed9a86a5b3cf001
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 17:38:08 2015 -0500
+
+    [develop] quick commit.
+
+commit 562ce0b804e0124c97fa447c3e93c12b4559030a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 16:46:41 2015 -0500
+
+    logs
+
+commit 1058a8a47a0c562045a41572362cc90840d5ad75
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 23 15:34:37 2015 -0500
+
+    fix branch name parsing
+
+commit 87e1bb29a00ead8a8dc84c4349288ebd5ec8d72a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 18 13:07:51 2015 -0500
+
+    started log.js
+
+commit 4f0242f12bbdbdfddc87068bef522c3aa29a4090
+Merge: b7670ad 16955f8
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:47:45 2015 -0500
+
+    Merge pull request #14 from beplaya/develop
+
+    m
+
+commit 16955f843c87b5585626e9c9d49e9b269496afcd
+Merge: cf71214 b7670ad
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Mon Nov 16 17:46:14 2015 -0500
+
+    Merge pull request #36 from cah-grantjames/develop
+
+    lg1 and quotes
+
+commit b7670ada291fd7f43a19c5df05b7c44410c66607
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:44:21 2015 -0500
+
+    [develop] README update.
+
+commit f9cb9bef6cb722bc5ae018bbd8a05fdb64581271
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:43:57 2015 -0500
+
+    lg1
+
+commit aba8da5bf6ce23c2dd9909e53f855070eda65e4f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:28:14 2015 -0500
+
+    moved cmds to a file
+
+commit 2b6ba55a2ffa44fe6f0c640f636c495007622de2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:23:43 2015 -0500
+
+    [develop] quick commit.
+
+commit 77f42682f1ef6b25dea790f0728ce47bd5a183e1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:23:26 2015 -0500
+
+    ads asd
+
+commit 515eb8ca3578da801b13519fea3772f3952f5eb1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:21:57 2015 -0500
+
+    NIT-quotes no quotes baby!
+
+commit ebac638d77549e918e0fdf72ad1b8f1a5e07e990
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:21:09 2015 -0500
+
+    no need for quotes
+
+commit dbd96e7f5ecaf406c3648f654cbdf86d3fe4cad0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:15:32 2015 -0500
+
+    asda asd asd asd ads
+
+commit 9e5b953902dcd9b53ef528feeb8e35d9faae768e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:05:50 2015 -0500
+
+    [develop] quick commit.
+
+commit b9ffb28c8e19c86ca8e66b6007eb2ba8bff0bc64
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Mon Nov 16 17:05:08 2015 -0500
+
+    [develop] quick commit.
+
+commit cf71214ec276091ed76c5fbd987f197f124a634d
+Merge: 2204abe 86f7e1e
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:23:02 2015 -0500
+
+    Merge pull request #35 from cah-grantjames/develop
+
+    g
+
+commit 86f7e1e3c380c3b25bb7ffd927ed4c29753ad1fa
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:22:41 2015 -0500
+
+    [develop] quick commit.
+
+commit 58016580f7a24bf51d9146f3e445182f86dfd57f
+Merge: f7ebf70 2204abe
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:20:44 2015 -0500
+
+    Merge pull request #13 from beplaya/develop
+
+    h
+
+commit 2204abec6950d380283d7608de4f8a590e9b3f76
+Merge: 52e174d f7ebf70
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:20:31 2015 -0500
+
+    Merge pull request #34 from cah-grantjames/develop
+
+    create settings
+
+commit f7ebf701b74ebe8f8dcefc7e13e0e1209bab10f4
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:20:02 2015 -0500
+
+    [develop] quick commit.
+
+commit 52e174dac3fc4a33809d3ef092361770da3b9c92
+Merge: ab4a22a fc8f590
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:11:34 2015 -0500
+
+    Merge pull request #33 from cah-grantjames/develop
+
+    logo
+
+commit fc8f59054cc519bc760bdfc6ee46c46bbfe973e0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:10:56 2015 -0500
+
+    [develop] README update.
+
+commit 44373ae6c16980a1cf7972d9503e8c52ad4ab27f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:10:04 2015 -0500
+
+    [develop] README update.
+
+commit ab4a22af94bbcba3ff0e609ac46f1f16bae4e752
+Merge: 3336e9f a08751a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:08:26 2015 -0500
+
+    Merge pull request #32 from cah-grantjames/develop
+
+    logo
+
+commit a08751a6ae0548f91e2d977b7e1285fbe51b8134
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:08:05 2015 -0500
+
+    [develop] README update.
+
+commit 3336e9f9bc0a32cb46baa5bd1ee18c34b58fff35
+Merge: fd3510a 7d19c80
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:07:17 2015 -0500
+
+    Merge pull request #31 from cah-grantjames/develop
+
+    logo
+
+commit 7d19c80e806c5569843938949ef7c06d826372d5
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:06:49 2015 -0500
+
+    [develop] README update.
+
+commit e2e97b45295a90897b148fa623ef8874c520644b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:06:15 2015 -0500
+
+    [develop] README update.
+
+commit 28c6561cc6a422cdea300be3d53ee35bdf6aea7e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 17:05:06 2015 -0500
+
+    [develop] quick commit.
+
+commit fd3510a9c6bc428d06e8440d133950907bd2bac5
+Merge: 259041a 3687c65
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 17:02:16 2015 -0500
+
+    Merge pull request #30 from cah-grantjames/develop
+
+    sa
+
+commit 3687c65c263737caf2ad01a5a2cb1f484044ea32
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 16:53:09 2015 -0500
+
+    [develop] quick commit.
+
+commit 053e0077732e6cda758dfd3a4ca8933c6df6eec9
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 16:48:54 2015 -0500
+
+    [develop] quick commit.
+
+commit 90d3efd663173958617137202d9ad516de8fce5f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 16:45:56 2015 -0500
+
+    [develop] quick commit.
+
+commit c72fb58bb90dc1efa66a0fd0df141d3e29868496
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 16:24:56 2015 -0500
+
+    [develop] quick commit.
+
+commit a6ef79372555da3900cd81b0f4d3cbc14ae387cb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 16:23:15 2015 -0500
+
+    [develop] quick commit.
+
+commit d6a789ba93cb7b7097b81b2b63ad9ae48177a26f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 15:17:19 2015 -0500
+
+    deletes response files
+
+commit 47c30373cfcdc1c91710e395b2978d15115963c8
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 15:14:18 2015 -0500
+
+    [develop] quick commit.
+
+commit 1323ae2ba37e16921845ffe7ca07d70434464bcd
+Merge: e0174dc 259041a
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 15:11:03 2015 -0500
+
+    Merge pull request #12 from beplaya/develop
+
+    s
+
+commit 259041afd7d754f4048f20f32b5b55d7abfe733b
+Merge: 63eba3c e0174dc
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 15:10:24 2015 -0500
+
+    Merge pull request #29 from cah-grantjames/develop
+
+    module.exports
+
+commit e0174dc0c6a9601849451b6557704e2eb29c5abe
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 15:08:14 2015 -0500
+
+    [develop] quick commit.
+
+commit f8d194fb7274bc21bfbfd5851a0d4887667756d7
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 15:04:01 2015 -0500
+
+    [develop] quick commit.
+
+commit 186dbf2116937bfa1d556986800e08b6603820dc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:36:35 2015 -0500
+
+    [develop] quick commit.
+
+commit 105105d05145a66c88be3983ce3c8f4151b96ae2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:34:46 2015 -0500
+
+    [develop] quick commit.
+
+commit 17afaa5b6f31d28f06f7f93f3a66dc788061441b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:31:38 2015 -0500
+
+    help
+
+commit 79e1c07328360fff1f9dc06017b239adb1679a4a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:12:21 2015 -0500
+
+    [develop] quick commit.
+
+commit afae482fb47f41b6bd860600eee7575a97089168
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:12:05 2015 -0500
+
+    [develop] quick commit.
+
+commit b419cf244b7610bf3636a5baa17d4a86df54a58b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:08:00 2015 -0500
+
+    [develop] quick commit.
+
+commit 89d081a5476f73f682b37b6d3110a7680fb58902
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 14:06:35 2015 -0500
+
+    sep files for classes
+
+commit 63eba3cefc54ddefd44e23bdfb879f78c7a7599f
+Merge: 8012a45 a8c23d1
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 11:26:37 2015 -0500
+
+    Merge pull request #28 from cah-grantjames/develop
+
+    s
+
+commit a8c23d1aa4f07859aa0439bebcd8d0dd30080480
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:25:41 2015 -0500
+
+    [develop] README update.
+
+commit 96b48e6e777a8f04b7afcc62a789f65f8f4f844a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:24:44 2015 -0500
+
+    [develop] README update.
+
+commit 8012a4557df0f9ffd0c9e60f948aaf3a2aea310d
+Merge: c9498c9 4fb3e3c
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 11:22:05 2015 -0500
+
+    Merge pull request #27 from cah-grantjames/develop
+
+    s
+
+commit 4fb3e3cc6127226cee62b599f8dd507ce69a706d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:21:39 2015 -0500
+
+    summary in desc
+
+commit 645f5d7512de8a94c3bb0415e8c7caa53b3d7881
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:19:17 2015 -0500
+
+    [develop] quick commit.
+
+commit f0d0fb23bcdb77f50cbfe830be3282142ebbf327
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:19:14 2015 -0500
+
+    [develop] README update.
+
+commit b1e5c68eda7a39d64e27e53c16b7b9416c513054
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:18:10 2015 -0500
+
+    [develop] README update.
+
+commit 22059de3a6664eb7309f215f4fa216ab779090e5
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:17:12 2015 -0500
+
+    [develop] README update.
+
+commit c9498c9cf03f74327406e25246bb191c815e55c3
+Merge: cab5494 5a34dab
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 11:10:56 2015 -0500
+
+    Merge pull request #26 from cah-grantjames/develop
+
+    sfci
+
+commit 5a34dabf551fc5218a0fad738c7e23a7b8d26856
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:10:14 2015 -0500
+
+    added qrci
+
+commit 3db52c63c985748c3982bfcb43745e7298d1c98b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:09:55 2015 -0500
+
+    [develop] README update.
+
+commit fc17a9ce111e05831f5780d9996bb2bb331afbb0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:09:41 2015 -0500
+
+    [develop] README update.
+
+commit 4f0102eb6608d0d3c73d5e7a429a80fdbd60a08e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:08:25 2015 -0500
+
+    [develop] README update.
+
+commit 18e01dd84d049311e049946e967f9272fb149c49
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:07:54 2015 -0500
+
+    [develop] README update.
+
+commit f87eb2b3d496f0c7621390a69e47671aefe41982
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:06:18 2015 -0500
+
+    [develop] quick commit.
+
+commit 35e0b30ccbf72fc2adb06b3f28d9747ac9d4d7c3
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:04:14 2015 -0500
+
+    [develop] quick commit.
+
+commit 27cb8971f438c4b83bfd0f8fcdc7ac4d58c4b37e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:03:58 2015 -0500
+
+    [develop] quick commit.
+
+commit 495cd111d1799fdeb958633819668a28394bd9b6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:03:04 2015 -0500
+
+    [develop] quick commit.
+
+commit cbdd8d04fcb4e595ba217008bdbde41db7fa81ea
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:02:23 2015 -0500
+
+    [develop] quick commit.
+
+commit d6e6f3c03a51c0e1323deb4a2fc598fd9f21572b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 11:00:59 2015 -0500
+
+    [develop] quick commit.
+
+commit d51efb1c39ed6bd79716ab5c416df77301efb130
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 10:50:53 2015 -0500
+
+    [develop] quick commit.
+
+commit cab5494cd0e7521f17eec58769a838ca7b5fbee0
+Merge: 2570aff 6dc956b
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Fri Nov 13 10:45:43 2015 -0500
+
+    Merge pull request #25 from cah-grantjames/develop
+
+    sfci
+
+commit 6dc956bc2431f2d5c677e80eef1af3fdefd898cc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 10:44:04 2015 -0500
+
+    NIT-nira sfci
+
+commit 4a624fc4747d6c0a226021f919162fb857526851
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Fri Nov 13 10:42:10 2015 -0500
+
+    NIT-nira max line lenght
+
+commit 4b22ada779a784af463b9174b9baa61ee1cf5f4e
+Merge: e70b6bc 2570aff
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 18:32:56 2015 -0500
+
+    Merge pull request #11 from beplaya/develop
+
+    m
+
+commit 2570aff1a5c8ce273c5f36b5d917c6329565cf91
+Merge: b11b664 0f486d2
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Thu Nov 12 18:32:12 2015 -0500
+
+    Merge pull request #24 from cah-grantjames/feature/NIT-nira
+
+    Feature/nit nira
+
+commit 0f486d2b9e6ef0661a1a02e7cdf12db82880093f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 18:31:01 2015 -0500
+
+    NIT-nira formatting
+
+commit b31f281f020695ceca5feaac9c79bb65e45bcb21
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 17:50:50 2015 -0500
+
+    quick commit
+
+commit e70b6bc62cd3ac8b561857bedf1de966fe83341e
+Merge: 6157ad1 b11b664
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 17:17:58 2015 -0500
+
+    Merge pull request #10 from beplaya/develop
+
+    t
+
+commit b11b6640eb50849adf0f15fc73bd042a679d0bfd
+Merge: b61535e 08c795a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Thu Nov 12 17:16:23 2015 -0500
+
+    Merge pull request #23 from cah-grantjames/feature/NIT-nira
+
+    Feature/nit nira
+
+commit 08c795a1455f9c3a5636a1eb8e3390e082902980
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 17:15:01 2015 -0500
+
+    comments work.  needs formating
+
+commit 977ed3b5b8c05fb3566077dd86e8474cd95e955b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 16:25:03 2015 -0500
+
+    quick commit
+
+commit 6157ad1b34bf6671ca737112ca1cb10061e4ef14
+Merge: 704080f b61535e
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:56:47 2015 -0500
+
+    Merge pull request #9 from beplaya/develop
+
+    df
+
+commit b61535efab047faaf9003065a0a9f17e88b46a03
+Merge: b9f3f15 704080f
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Thu Nov 12 10:56:32 2015 -0500
+
+    Merge pull request #22 from cah-grantjames/develop
+
+    error handle
+
+commit 704080f7397d55f242d09a1f0a982d3d58e3c296
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:55:58 2015 -0500
+
+    error handle
+
+commit b9f3f15be44ae961301e86e0277032c3fd231819
+Merge: 1fabd08 3923e46
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Thu Nov 12 10:53:31 2015 -0500
+
+    Merge pull request #21 from cah-grantjames/develop
+
+    s
+
+commit 3923e461aff4dabcc8ef051ccd0a4cb234f4186f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:51:49 2015 -0500
+
+    quick commit
+
+commit 61f49d0b0d9ec93592d0189347caa6f6ff52e69e
+Merge: 98c46c6 1fabd08
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:42:56 2015 -0500
+
+    Merge pull request #8 from beplaya/develop
+
+    merge
+
+commit 1fabd0896068818f23bbe68393e04240e315e615
+Merge: de54071 2aeb87a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Thu Nov 12 10:42:21 2015 -0500
+
+    Merge pull request #20 from cah-grantjames/feature/NIT-nira
+
+    Feature/nit nira
+
+commit 2aeb87a166703601116cd8699da87bbf15c518cd
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:41:22 2015 -0500
+
+    quick commit
+
+commit 7793bd4456f4ec9e9ef7bb25709adf8aa2fd3946
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:36:36 2015 -0500
+
+    quick commit
+
+commit ffc660a0b2d2500011e7ec4e32238ba5cd1a0ea8
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:17:04 2015 -0500
+
+    quick commit
+
+commit 662bef4e0efc1fb5222dd61d80eac4b3f6e231eb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:08:42 2015 -0500
+
+    quick commit
+
+commit 5ab7e958b9d3a695a3f58e7dd4a6732f15acd9b0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 10:01:44 2015 -0500
+
+    quick commit
+
+commit 3083edb497f943e52f2bb5cae943443021546b6a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 09:32:48 2015 -0500
+
+    NIT-nira gets description
+
+commit 67443fcff88a4d3a99aeefd8d9246bffaf9183bc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Thu Nov 12 09:22:34 2015 -0500
+
+    quick commit
+
+commit dcb2832922954fe0c3ee92becd9604e8e54b62a6
+Merge: 928da4e 98c46c6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 17:33:33 2015 -0500
+
+    ads
+
+commit 98c46c66e3571ef7bfbae8c423449050c80f39df
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 17:32:19 2015 -0500
+
+    quick commit
+
+commit 928da4e5666d08a881833e16e17d21cbafa8ad84
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 17:31:09 2015 -0500
+
+    NIT-nira jira get issue works
+
+commit f5104789d4d8c00bb25e2509d7a26b506ad75332
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 16:50:35 2015 -0500
+
+    NIT-nira cmd resp
+
+commit 0190cf6dec9a933b6a9a2177778fcc517946764f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 16:29:58 2015 -0500
+
+    NIT-nira started nerver
+
+commit 9a92578b9033d05ea9fce91db153332ad9080b5a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 16:16:01 2015 -0500
+
+    quick commit
+
+commit 3e4763ff74bbbd304bd8a0ac0c48709220993c59
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 16:15:25 2015 -0500
+
+    quick commit
+
+commit bf81193d4a2458a6308607ca6b4da82a04e680f6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 16:00:57 2015 -0500
+
+    quick commit
+
+commit a7638ac41cafbf331da8c901575805650f5c7f85
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Wed Nov 11 15:41:22 2015 -0500
+
+    NIT-nira express
+
+commit 139a189a7113f979eba78ca106fd99888d2449b2
+Merge: 9657a3f de54071
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:56:45 2015 -0500
+
+    Merge pull request #7 from beplaya/develop
+
+    merge
+
+commit de54071dedfa25ddf1a4e496819a3a111b696aa3
+Merge: f5ecfbd f0cdaae
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 18:54:59 2015 -0500
+
+    Merge pull request #19 from beplaya/master
+
+    Merge pull request #12 from beplaya/develop
+
+commit f5ecfbd9774dc447b20d7006fa454d9c3ef441e0
+Merge: 64ea9c3 4f3ffbb
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 18:54:46 2015 -0500
+
+    Merge pull request #18 from cah-grantjames/feature/NIT-derge
+
+    Feature/nit derge
+
+commit 4f3ffbb7171c11f93542a0a147b24baa6566977f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:53:49 2015 -0500
+
+    quick commit
+
+commit e7548cb0740daae01d6982dc45677b47f24bf70a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:53:30 2015 -0500
+
+    quick commit
+
+commit 5a10684978f4d541b579c2189dcb8a4195bc0c32
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:52:45 2015 -0500
+
+    quick commit
+
+commit 64ea9c3d4db16383451bf20ce444dff9a658969b
+Merge: cac7488 239d6c1
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 18:50:18 2015 -0500
+
+    Merge pull request #17 from cah-grantjames/feature/NIT-derge
+
+    Feature/nit derge
+
+commit 239d6c1a9f76012ef8331c7181266577d45d525d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:49:22 2015 -0500
+
+    quick commit
+
+commit e5554c6f656e3a4a48856565b3d68e934b44ded8
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:45:20 2015 -0500
+
+    NIT-derge readme
+
+commit 9657a3f3621cf507926dc7426dbec6ad968e4235
+Merge: b29489c cac7488
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:41:46 2015 -0500
+
+    Merge pull request #6 from beplaya/develop
+
+    merge
+
+commit cac7488b491dc358e117c9acd0b0aebd713bfc81
+Merge: 5e131d0 f750c71
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 18:41:29 2015 -0500
+
+    Merge pull request #16 from cah-grantjames/feature/NIT-derge
+
+    Feature/nit derge
+
+commit f750c71d548dc87b4dfdb7fe5311a036ac43a683
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:41:01 2015 -0500
+
+    quick commit
+
+commit c5ef5a4ce832826db76c9a48075a0332cd3b5b12
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:39:24 2015 -0500
+
+    quick commit
+
+commit 7792533e4ff0a13199c9457f55a6c0dd07c0b68d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:37:14 2015 -0500
+
+    quick commit
+
+commit ad8527830d338c39a004e9a01853409862ef9023
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:35:37 2015 -0500
+
+    NIT-derge derge and upderge
+
+commit 1e045b9558af0ce883129c73742166589c961d9c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:16:50 2015 -0500
+
+    quick commit
+
+commit 7257d8a0450e63cf368c58af4b9bc60321616b6c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:14:47 2015 -0500
+
+    quick commit
+
+commit 3d92a8b12bcb8e175c2684c43a567d5fe98f47d2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:11:42 2015 -0500
+
+    quick commit
+
+commit 05179fc8f44d38acc108897fb6985c7b66626d7d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:10:18 2015 -0500
+
+    quick commit
+
+commit 9402d84b783b07abf9b467940542b665cbd862d0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:06:32 2015 -0500
+
+    NIT-derge currentBranch
+
+commit 39e58ce2f9c4cd62786bdac3af42dd1fd9178e3b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:05:38 2015 -0500
+
+    NIT-derge derge
+
+commit b29489cb587cc782c83b896a3cf21415d11aabee
+Merge: 2cd3b7a 5e131d0
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 18:00:38 2015 -0500
+
+    Merge pull request #5 from beplaya/develop
+
+    fg
+
+commit 5e131d0decc100059188e8654bc9faee970744f2
+Merge: e9c293a 8ee06f0
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 18:00:14 2015 -0500
+
+    Merge pull request #15 from cah-grantjames/feature/NIT-derge
+
+    Feature/nit derge
+
+commit e9c293a9885e26e45d2c12d59ecd0fb89821000c
+Merge: 9d9f164 2cd3b7a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:59:33 2015 -0500
+
+    Merge pull request #14 from cah-grantjames/develop
+
+    Merge pull request #4 from beplaya/develop
+
+commit 8ee06f0087344ff4f3326a0134c30fb414ca7581
+Merge: 79910f8 e0ac429
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:58:49 2015 -0500
+
+    Merge branch 'feature/NIT-derg' into feature/NIT-derge
+
+commit e0ac4295e6c060bb0333a1550f01092f99b8d9c9
+Merge: ca1a506 2cd3b7a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:57:58 2015 -0500
+
+    NIT-derg
+    All conflicts fixed but you are still merging.
+      (use "git commit" to conclude merge) merged
+
+commit 79910f8faa820be8f386fa4586afff28d55e2207
+Merge: c77487a 2cd3b7a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:56:08 2015 -0500
+
+    Merge branches 'develop' and 'develop' of github.com:cah-grantjames/Nit into feature/NIT-derge
+
+commit 2cd3b7a1d7fbfb26be62db1166fb968f75c11d69
+Merge: 318249d 9d9f164
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:56:02 2015 -0500
+
+    Merge pull request #4 from beplaya/develop
+
+    m
+
+commit c77487a1861b6eb8a0530dc2f13843c6b480cc7d
+Merge: 9ff28d0 318249d
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:55:04 2015 -0500
+
+    Merge branch 'develop' into feature/NIT-derge
+
+commit 9d9f164b1bac89fadadded4ed1489546d8e9e32f
+Merge: 9a63d57 318249d
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:54:13 2015 -0500
+
+    Merge pull request #13 from cah-grantjames/develop
+
+    Merge pull request #3 from beplaya/develop
+
+commit f0cdaae53d646cb36d1f4890c2ef14b58a3a2f78
+Merge: c1a0396 9a63d57
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:53:40 2015 -0500
+
+    Merge pull request #12 from beplaya/develop
+
+    Merge pull request #11 from beplaya/master
+
+commit 9a63d57881b643f665f75ec70a76fc0d34bbdd1f
+Merge: 31d9c3a c1a0396
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:53:06 2015 -0500
+
+    Merge pull request #11 from beplaya/master
+
+    Merge pull request #10 from beplaya/develop
+
+commit 318249d72a2e713b26985a6e16a5bf2cf94e5d02
+Merge: 3e9845a 31d9c3a
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:52:33 2015 -0500
+
+    Merge pull request #3 from beplaya/develop
+
+    Merge pull request #9 from cah-grantjames/develop
+
+commit c1a0396a804ec5b247aa522f3c6b58267be7b339
+Merge: 5358fb9 31d9c3a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:48:53 2015 -0500
+
+    Merge pull request #10 from beplaya/develop
+
+    dm
+
+commit 31d9c3a1af99d2631ff78b952438fcee1ee309ff
+Merge: 5358fb9 3e9845a
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:47:00 2015 -0500
+
+    Merge pull request #9 from cah-grantjames/develop
+
+    develop
+
+commit 9ff28d04382f7d64113a42801628452ed604ee73
+Merge: 5124046 3e9845a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:45:05 2015 -0500
+
+    Merge branch 'develop' into feature/NIT-derge
+
+commit 3e9845ab549ad31428e098f23c598db095603818
+Merge: afd0a2a 5358fb9
+Author: cah-grantjames <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:44:35 2015 -0500
+
+    Merge pull request #1 from beplaya/develop
+
+    develop
+
+commit 512404651d116fe5bb0150a3bead5ecdc86d99f1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:34:45 2015 -0500
+
+    NIT-derge no }
+
+commit 5358fb9b397f7cc50fe129118c85f30a8bc0cd4d
+Merge: 6a81b3f d373e82
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 17:32:22 2015 -0500
+
+    Merge pull request #7 from cah-grantjames/feature/NIT-derge
+
+    Feature/nit derge
+
+commit ca1a506e4f5dcfd10194af9ce92ef26e7d36a93e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:30:36 2015 -0500
+
+    quick commit
+
+commit d373e82257c327315b3bdbf9025bc1ae5cc2c67f
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:28:55 2015 -0500
+
+    quick commit
+
+commit 62d86dcfd95b36290c92a51e416941b465d3010b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:28:32 2015 -0500
+
+    quick commit
+
+commit 669e345cda3c3dc6cfc1c8a3ba24cae60e107c08
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:27:59 2015 -0500
+
+    quick commit
+
+commit 3ad69a7cafb7df33939b9dbefb27026e6a8dd2b5
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:24:48 2015 -0500
+
+    quick commit
+
+commit 54c67e74dea3cedc203b97cf8f077b3584f5c25c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:23:48 2015 -0500
+
+    quick commit
+
+commit 2f2905ee7f2e4d48bf002821ca36426d2128193a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:23:26 2015 -0500
+
+    quick commit
+
+commit e7519cbc39ec8993eb119c5aeaeccb59d7691ed1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:23:17 2015 -0500
+
+    quick commit
+
+commit eb4d80a71abc4f32c617c6f7421fdd336430846e
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:22:45 2015 -0500
+
+    quick commit
+
+commit 1d86f6cece5d355f15caa5c8263916716fb72ca2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:22:18 2015 -0500
+
+    quick commit
+
+commit 34f660ee828a2baa1f973d492691c38a44b14484
+Merge: 339796e afd0a2a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:19:49 2015 -0500
+
+    Merge branch 'develop' into feature/NIT-derge
+
+commit afd0a2a3475ebfa9cc34c9f329e4551c21f51d9b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:19:43 2015 -0500
+
+    quick commit
+
+commit 339796ea7d406ab2b6327b8f002a95c14ef9589c
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:18:35 2015 -0500
+
+    NIT-derge derge works
+
+commit 4b9520298b2506885eb524a1646152e7edc9f146
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:17:40 2015 -0500
+
+    quick commit
+
+commit a877f7c592803899ecfe92834d1f89140a4271e6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:17:00 2015 -0500
+
+    quick commit
+
+commit aa4931f506e72b51e40fb56827918a8bd45f1db6
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 17:15:47 2015 -0500
+
+    NIT-derge derge
+
+commit 6a81b3ff2f57bfad04c1c038c4ada53b17d58c2f
+Merge: 869a407 b736866
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 16:54:00 2015 -0500
+
+    Merge pull request #6 from cah-grantjames/develop
+
+    quick commit
+
+commit b7368668579c9801a0fed8755cbea0a8a6e601bb
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:52:54 2015 -0500
+
+    quick commit
+
+commit 869a4071e1c4fc7d516c7d207fdf2ca547dd77df
+Merge: 4b3346c 67d1e49
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 16:22:00 2015 -0500
+
+    Merge pull request #5 from cah-grantjames/develop
+
+    NIT-readme readme
+
+commit 67d1e490603712e081794093f7caccd34f578f1a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:21:18 2015 -0500
+
+    quick commit
+
+commit 94c53cf60fff99d99688f717b94581f890800a24
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:18:42 2015 -0500
+
+    quick commit
+
+commit 6888ae89ecfb1d967cb32ffbc5c0537134bf77c2
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:17:33 2015 -0500
+
+    NIT-fb n
+
+commit f9306eb2b3f98038412550459114b4c9f7fa8803
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:16:26 2015 -0500
+
+    NIT-fb fixed fb
+
+commit 41d9f570f9313eb4d33f9a273ceb457a3329523a
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:14:41 2015 -0500
+
+    -m
+
+commit b920a03e0bacf188c98df055e577f61c5d9636b1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:10:01 2015 -0500
+
+    quick commit
+
+commit 7fa96c737dc3cf2133f18eea55d7556ec42f1fde
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 16:06:22 2015 -0500
+
+    NIT-readme readme
+
+commit 4b3346c0c6329a81ff0284f8aba565f5773b1c15
+Merge: 4310185 d4e88f6
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 14:52:11 2015 -0500
+
+    Merge pull request #3 from cah-grantjames/develop
+
+    quick commit
+
+commit d4e88f6a5753f6c767eae90babd2b4f5583a5aca
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:48:08 2015 -0500
+
+    quick commit
+
+commit 431018539bbe6d2451473ba810055597ab9d93ba
+Merge: ba83113 99b26ec
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 14:44:05 2015 -0500
+
+    Merge pull request #2 from cah-grantjames/develop
+
+    NIT-init temp removed init
+
+commit 99b26ec7aae14c24f4dea091827b26517acaea3b
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:37:20 2015 -0500
+
+    added nitconfig template'
+
+commit d9e39d62e1f21f5a1ab936dd90067cf28b2793bc
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:32:59 2015 -0500
+
+    NIT-readme printer.E
+
+commit 937eb3250280da5fc61ee6aef7f6bff373d01524
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:32:35 2015 -0500
+
+    NIT-readme removed dumb logging
+
+commit 3da614a2264cf93c39bada9349ebcc7f0e012416
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:31:17 2015 -0500
+
+    NIT-readme added help to readme
+
+commit fa301c8dd324bd2c1a9d03d9315eb7f036235ef1
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 14:17:58 2015 -0500
+
+    NIT-init temp removed init
+
+commit ba8311316ceb805cd564bbe610794152bf6075de
+Merge: c316a2c 7acf319
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 14:00:07 2015 -0500
+
+    Merge pull request #1 from cah-grantjames/master
+
+    start
+
+commit 7acf319fddcd8e04df1bc8aacc92bfc9332716d3
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 13:41:45 2015 -0500
+
+    quick commit
+
+commit c6dc5c11847f467e6dfc645cdd29911a282fcea0
+Author: Grant James <grant.james@cardinalhealth.com>
+Date:   Tue Nov 10 13:34:33 2015 -0500
+
+    start
+
+commit c316a2cc0daeb74e6079b656f95702a83c39e86d
+Author: beplaya <beplaya@users.noreply.github.com>
+Date:   Tue Nov 10 13:30:44 2015 -0500
+
+    Initial commit
