@@ -2,7 +2,9 @@ commit 2f236253b3ba306157cff82f5f405d00648d46f0
 Author: TEST AuTHOR0 <author0@email.net>
 Date:   Wed Feb 3 17:58:43 2016 -0500
 
-    glimr added
+    the commit message
+
+    is here and should all be captured
 
 commit 637f934b9be197e1310624bed4d361092798a4bf
 Author: T3ST AuTttHOR1 <testa1@thing.com>

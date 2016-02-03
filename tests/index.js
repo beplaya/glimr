@@ -36,3 +36,15 @@ describe('Log Objectifier', function(){
         expect("1~" + nitLogs.logObjects[1].author.email).to.equal("1~testa1@thing.com");
     });
 });
+
+describe('Log Objectifier', function(){
+    it('should objectify commit date',function(){
+        expect("0~" + nitLogs.logObjects[0].date).to.equal("0~"+new Date("Wed Feb 3 17:58:43 2016 -0500"));
+    });
+});
+
+describe('Log Objectifier', function(){
+    it('should objectify commit message',function(){
+        expect("0~" + nitLogs.logObjects[0].message).to.equal("0~"+"the commit message\n\n    is here and should all be captured");
+    });
+});
