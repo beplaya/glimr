@@ -1,8 +1,8 @@
 {
   "name": "glimr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Git Log Inferred Metrics and Reports",
-  "main": "glimr.js",
+  "main": "glimr/glimr.js",
   "dependencies": {
   },
   "devDependencies": {

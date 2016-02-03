@@ -4,4 +4,4 @@ bower_components/
 .DS_Store
 .idea/
 .nitconfig
-
+npm-debug.log
