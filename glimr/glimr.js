@@ -1,6 +1,7 @@
 module.exports = function() {
     var GLIMR = {};
     GLIMR.deltas = require(__dirname + "/lib/deltas.js")();
+    GLIMR.cards = require(__dirname + "/lib/cards.js")();
 
     GLIMR.toLogObjectsArray = function(logOutput, withDeltas) {
         var logObjects = GLIMR.build(logOutput);
