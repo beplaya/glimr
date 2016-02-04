@@ -6,22 +6,18 @@ module.exports = function(){
         var pullRequestSearch = "Merge pull request #";
         for(var i=0; i<logObjects.length; i++) {
             var message = logObjects[i].message || "";
-            var isMergePull = false;
             var pullRequestNumber = -1;
-            if(message.indexOf(pullRequestSearch) != -1){
-                isMergePull = true;
-                var indexOfPullRequest = message.indexOf(pullRequestSearch);
-                pullRequestNumber = message.substr(indexOfPullRequest);
-                pullRequestNumber = pullRequestNumber.substr(pullRequestSearch.length);
-                pullRequestNumber = pullRequestNumber.substr(0, pullRequestNumber.indexOf(" "));
-            }
+
             var messageLines = message.split("\n");
             for(var mli=0; mli<messageLines.length; mli++){
                 messageLines[mli] = messageLines[mli].trim();
-                if(messageLines[mli].indexOf(search) == 0 || (messageLines[mli].indexOf(search) != -1
-                        && messageLines[mli].indexOf(pullRequestSearch) != -1)){
+                if(messageLines[mli].indexOf(search) == 0 || (messageLines[mli].indexOf(search) != -1 && messageLines[mli].indexOf(pullRequestSearch) != -1)){
                     var spaceIndex = messageLines[mli].indexOf(" ");
                     var issueKey = messageLines[mli].substr(0, spaceIndex).trim();
+                    if(messageLines[mli].indexOf(pullRequestSearch) != -1){
+                        issueKey = messageLines[mli].substr(messageLines[mli].lastIndexOf(projectKey)).trim();
+                    }
+
                     var split = issueKey.split("-");
                     if(split && split.length > 1) {
                         var issueNumber = 1*split[1];
@@ -32,10 +28,12 @@ module.exports = function(){
                                     key : issueKey,
                                     number : issueNumber,
                                     projectKey : projectKey,
-                                    commits : [ {logObject: logObjects[i], isMergePull : isMergePull, pullRequestNumber: pullRequestNumber}]
+                                    numberOfPullRequests : logObjects[i].pullRequest.isPullRequest ? 1 : 0,
+                                    commits : [ logObjects[i] ]
                                 });
                             } else {
-                                cards[existingCardIndex].commits.push({logObject: logObjects[i], isMergePull : isMergePull, pullRequestNumber: pullRequestNumber});
+                                cards[existingCardIndex].numberOfPullRequests += logObjects[i].pullRequest.isPullRequest ? 1 : 0;
+                                cards[existingCardIndex].commits.push(logObjects[i]);
                             }
                         }
                     }

@@ -43,5 +43,11 @@ describe('Log Objectifier', function(){
         expect("0~" + nitLogs.logObjects[0].pullRequest.number).to.equal("0~" + "-1");
         expect("3~" + nitLogs.logObjects[3].pullRequest.isPullRequest).to.equal("3~" + true);
         expect("3~" + nitLogs.logObjects[3].pullRequest.number).to.equal("3~" + "23");
+
+        for(var i=0; i<nitLogs.logObjects.length; i++) {
+            if(nitLogs.logObjects[i].message.indexOf("NIT-3")!=-1 && nitLogs.logObjects[i].pullRequest.isPullRequest){
+                expect(i).to.equal(5);
+            }
+        }
     });
 });
