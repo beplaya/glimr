@@ -17,10 +17,12 @@ describe('cards', function(){
         expect(nitLogs.cards[0].number).to.equal(3);
         expect(nitLogs.cards[0].key).to.equal("NIT-3");
         expect(nitLogs.cards[0].numberOfPullRequests).to.equal(1);
+        expect(nitLogs.cards[0].commits.length).to.equal(2);
         //
         expect(nitLogs.cards[1].number).to.equal(2);
         expect(nitLogs.cards[1].key).to.equal("NIT-2");
         expect(nitLogs.cards[1].numberOfPullRequests).to.equal(2);
+        expect(nitLogs.cards[1].commits.length).to.equal(44);
         //
     });
 

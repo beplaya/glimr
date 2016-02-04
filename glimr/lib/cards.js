@@ -35,6 +35,7 @@ module.exports = function(){
                                 cards[existingCardIndex].numberOfPullRequests += logObjects[i].pullRequest.isPullRequest ? 1 : 0;
                                 cards[existingCardIndex].commits.push(logObjects[i]);
                             }
+                            break;
                         }
                     }
                 }
