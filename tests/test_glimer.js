@@ -1,12 +1,11 @@
 
-var superagent = require('superagent'),
-expect = require('expect.js'),
+var expect = require('expect.js'),
 fs = require('fs'),
 glimr = require(__dirname + '/../glimr/glimr.js')();
 
 var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
-nitLogs.logObjects = glimr.toEntryObjectsArray(nitLogs.content);
+nitLogs.logObjects = glimr.toLogObjectsArray(nitLogs.content);
 
 
 describe('Log Objectifier', function(){

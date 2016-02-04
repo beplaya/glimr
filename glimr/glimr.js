@@ -1,25 +1,33 @@
 module.exports = function() {
     var GLIMR = {};
+    GLIMR.deltas = require(__dirname + "/lib/deltas.js")();
 
-    GLIMR.toEntryObjectsArray = function(logOutput) {
+    GLIMR.toLogObjectsArray = function(logOutput, withDeltas) {
+        var logObjects = GLIMR.build(logOutput);
+        if(withDeltas){
+            logObjects = GLIMR.deltas.addDeltaInfo(logObjects);
+        }
+        return logObjects;
+    };
+
+    GLIMR.build = function(logOutput) {
         var entryTextBlocks = logOutput.split("\ncommit ");
-        var entryObjects = [];
+        var logObjects = [];
         var index = 0;
         for(var i=0; i<entryTextBlocks.length; i++){
             var entryLines = entryTextBlocks[i];
-            if(entryLines.length===0){
+            if(entryLines.length===0) {
                 continue;
-            }else {
+            } else {
                 var entryObj = GLIMR.createEntry(entryLines);
-                entryObjects[index] = entryObj;
+                logObjects[index] = entryObj;
                 index++;
             }
         }
-        entryObjects = entryObjects.sort(function(a, b){
+        logObjects = logObjects.sort(function(a, b){
             return a.date.getTime() < b.date.getTime() ? 1 : (a.date.getTime() === b.date.getTime() ? 0 : -1);
         });
-        console.log(entryObjects);
-        return entryObjects;
+        return logObjects;
     };
 
     GLIMR.createEntry = function(entryLines) {
