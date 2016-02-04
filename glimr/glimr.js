@@ -18,6 +18,7 @@ module.exports = function() {
         entryObjects = entryObjects.sort(function(a, b){
             return a.date.getTime() < b.date.getTime() ? 1 : (a.date.getTime() === b.date.getTime() ? 0 : -1);
         });
+        console.log(entryObjects);
         return entryObjects;
     };
 
@@ -40,7 +41,33 @@ module.exports = function() {
         }
         entry.message = entryLines.split("Date: ")[1];
         entry.message = entry.message.substring(entry.message.indexOf("\n\n")+"\n\n".length, entry.message.length).trim();
+        entry.pullRequest = GLIMR.getPullRequestInfo(entry.message);
         return entry;
+    };
+
+    GLIMR.getPullRequestInfo = function(message) {
+        var pullRequest = {
+            isPullRequest : false,
+            number : -1
+        };
+        try {
+            var pullRequestSearchStr = "Merge pull request #";
+            var indexOfPullRequestInfoInMessage = message.indexOf(pullRequestSearchStr);
+            if(indexOfPullRequestInfoInMessage != -1) {
+                var numberStr = message.substring(indexOfPullRequestInfoInMessage+pullRequestSearchStr.length);
+                if(numberStr.indexOf(" ")!=-1){
+                    pullRequest.isPullRequest = true;
+                    pullRequest.number = numberStr.split(" ")[0];
+                }
+            }
+        } catch(e) {
+            console.log(e);
+            pullRequest = {
+                isPullRequest : false,
+                number : -1
+            };
+        }
+        return pullRequest;
     };
 
     return GLIMR;

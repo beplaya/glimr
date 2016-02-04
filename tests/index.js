@@ -39,7 +39,10 @@ describe('Log Objectifier', function(){
         expect("0~" + nitLogs.logObjects[0].message).to.equal("0~"+"the commit message\n\n    is here and should all be captured");
     });
 
-    it('should objectify commit message',function(){
-        expect("0~" + nitLogs.logObjects[0].message).to.equal("0~"+"the commit message\n\n    is here and should all be captured");
+    it('should objectify commit and know if it is a pull request',function(){
+        expect("0~" + nitLogs.logObjects[0].pullRequest.isPullRequest).to.equal("0~" + false);
+        expect("0~" + nitLogs.logObjects[0].pullRequest.number).to.equal("0~" + "-1");
+        expect("3~" + nitLogs.logObjects[3].pullRequest.isPullRequest).to.equal("3~" + true);
+        expect("3~" + nitLogs.logObjects[3].pullRequest.number).to.equal("3~" + "23");
     });
 });
