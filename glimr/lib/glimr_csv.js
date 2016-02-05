@@ -24,5 +24,37 @@ module.exports = function(){
         return csv;
     };
 
+    CSV.createAuthors = function(authors) {
+        var header = "name, email, contribution_total, contribution_total_by_all, contribution_fraction";
+        var csv = header;
+        for(var i=0; i<authors.length; i++) {
+            var a = authors[i];
+            var row = "\n";
+            row += a.name;
+            row += "," + a.email;
+            row += "," + a.activity.contribution.total;
+            row += "," + a.activity.contribution.totalCommitsByAll;
+            row += "," + a.activity.contribution.fractionOfContribution;
+            csv += row;
+        }
+        return csv;
+    };
+
+    CSV.createCards = function(cards) {
+        var header = "key, number, project_key, number_of_pull_requests, number_of_commits";
+        var csv = header;
+        for(var i=0; i<cards.length; i++) {
+            var c = cards[i];
+            var row = "\n";
+            row += c.key;
+            row += "," + c.number;
+            row += "," + c.projectKey;
+            row += "," + c.numberOfPullRequests;
+            row += "," + c.commits.length;
+            csv += row;
+        }
+        return csv;
+    };
+
     return CSV;
 }

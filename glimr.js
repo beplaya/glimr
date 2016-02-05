@@ -87,10 +87,10 @@ module.exports = function() {
             }
         }
         fs.writeFileSync(filePathOut.authors.json, JSON.stringify(R.authors, 0, 4));
-//        fs.writeFileSync(filePathOut.authors.csv, glimrBuild.glimrCSV.createAuthors(R.authors));
+        fs.writeFileSync(filePathOut.authors.csv, glimrBuild.glimrCSV.createAuthors(R.authors));
 
         fs.writeFileSync(filePathOut.cards.json, JSON.stringify(R.cards, 0, 4));
-//        fs.writeFileSync(filePathOut.cards.csv, glimrBuild.glimrCSV.createCards(R.cards));
+        fs.writeFileSync(filePathOut.cards.csv, glimrBuild.glimrCSV.createCards(R.cards));
 
         fs.writeFileSync(filePathOut.all.json, JSON.stringify(R, 0, 4));
         fs.writeFileSync(filePathOut.logs.json, JSON.stringify(R.logObjects, 0, 4));
