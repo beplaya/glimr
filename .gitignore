@@ -5,4 +5,5 @@ bower_components/
 .idea/
 .nitconfig
 npm-debug.log
-glimr_results.json
+glimr_results_*
+*.csv

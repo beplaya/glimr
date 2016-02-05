@@ -7,7 +7,6 @@ var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
 nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content);
 
-
 describe('Log Objectifier', function(){
     it('should objectify logs',function(){
         expect(nitLogs.logObjects.length).to.equal(363);
