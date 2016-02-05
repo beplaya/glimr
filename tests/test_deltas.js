@@ -1,10 +1,10 @@
 var expect = require('expect.js'),
 fs = require('fs'),
-glimr = require(__dirname + '/../glimr/glimr.js')();
+glimrBuild = require(__dirname + '/../glimr/glimr_build.js')();
 var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
-nitLogs.logObjects = glimr.toLogObjectsArray(nitLogs.content);
-nitLogs.deltaLogObjects = glimr.deltas.addDeltaInfo(nitLogs.logObjects);
+nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content);
+nitLogs.deltaLogObjects = glimrBuild.deltas.addDeltaInfo(nitLogs.logObjects);
 
 
 describe('Deltas', function(){
