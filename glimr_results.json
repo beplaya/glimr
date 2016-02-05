@@ -1,0 +1,163 @@
+{
+    "logObjects": [
+        {
+            "commit": "ba89c155904dceda98546db2fbd0c666b13edb7d",
+            "author": {
+                "name": "Grant James",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T22:51:32.000Z",
+            "message": "package.json",
+            "pullRequest": {
+                "isPullRequest": false,
+                "number": -1
+            },
+            "deltas": {
+                "msSinceLast": 3056000,
+                "rollingAverageMs": 834800,
+                "rollingStDevMs": 1352385.1004798892
+            }
+        },
+        {
+            "commit": "b9e8b0d9a7bcbc5bfe492eedc701b40719d87837",
+            "author": {
+                "name": "cah-grantjames",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T22:00:36.000Z",
+            "message": "Merge pull request #23 from beplaya/develop\n\n    update dev",
+            "pullRequest": {
+                "isPullRequest": true,
+                "number": "23"
+            },
+            "deltas": {
+                "msSinceLast": 27000,
+                "rollingAverageMs": 279500,
+                "rollingStDevMs": 420257.5599161384
+            }
+        },
+        {
+            "commit": "4ee4f7658f6ef29d585f6a84e7d20acf25cc2c03",
+            "author": {
+                "name": "cah-grantjames",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T22:00:09.000Z",
+            "message": "Merge pull request #62 from cah-grantjames/develop\n\n    Merge pull request #22 from beplaya/develop",
+            "pullRequest": {
+                "isPullRequest": true,
+                "number": "62"
+            },
+            "deltas": {
+                "msSinceLast": 166000,
+                "rollingAverageMs": 363666.6666666667,
+                "rollingStDevMs": 499486.7921732822
+            }
+        },
+        {
+            "commit": "f1f302af105455a689f1b08105a888c819f2e5b2",
+            "author": {
+                "name": "cah-grantjames",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T21:57:23.000Z",
+            "message": "Merge pull request #61 from cah-grantjames/feature/NIT-3\n\n    NIT-3 added first mocha test",
+            "pullRequest": {
+                "isPullRequest": true,
+                "number": "61"
+            },
+            "deltas": {
+                "msSinceLast": 70000,
+                "rollingAverageMs": 462500,
+                "rollingStDevMs": 722508.6504672453
+            }
+        },
+        {
+            "commit": "27a17ddd7f7aca82905faf60697a0982a41b0a22",
+            "author": {
+                "name": "Grant James",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T21:56:13.000Z",
+            "message": "NIT-3 added first mocha test",
+            "pullRequest": {
+                "isPullRequest": false,
+                "number": -1
+            },
+            "deltas": {
+                "msSinceLast": 855000,
+                "rollingAverageMs": 855000,
+                "rollingStDevMs": null
+            }
+        },
+        {
+            "commit": "f742d52e01613b78dd195ad7c80108c4f9c733c1",
+            "author": {
+                "name": "cah-grantjames",
+                "email": "grant.james@cardinalhealth.com"
+            },
+            "date": "2016-02-03T21:41:58.000Z",
+            "message": "Merge pull request #22 from beplaya/develop\n\n    update dev",
+            "pullRequest": {
+                "isPullRequest": true,
+                "number": "22"
+            },
+            "deltas": {
+                "msSinceLast": 0,
+                "rollingAverageMs": 0,
+                "rollingStDevMs": 0
+            }
+        }
+    ],
+    "cards": [
+        {
+            "key": "NIT-3",
+            "number": 3,
+            "projectKey": "NIT",
+            "numberOfPullRequests": 1,
+            "commits": [
+                {
+                    "commit": "f1f302af105455a689f1b08105a888c819f2e5b2",
+                    "author": {
+                        "name": "cah-grantjames",
+                        "email": "grant.james@cardinalhealth.com"
+                    },
+                    "date": "2016-02-03T21:57:23.000Z",
+                    "message": "Merge pull request #61 from cah-grantjames/feature/NIT-3\n\n    NIT-3 added first mocha test",
+                    "pullRequest": {
+                        "isPullRequest": true,
+                        "number": "61"
+                    },
+                    "deltas": {
+                        "msSinceLast": 70000,
+                        "rollingAverageMs": 462500,
+                        "rollingStDevMs": 722508.6504672453
+                    }
+                },
+                {
+                    "commit": "27a17ddd7f7aca82905faf60697a0982a41b0a22",
+                    "author": {
+                        "name": "Grant James",
+                        "email": "grant.james@cardinalhealth.com"
+                    },
+                    "date": "2016-02-03T21:56:13.000Z",
+                    "message": "NIT-3 added first mocha test",
+                    "pullRequest": {
+                        "isPullRequest": false,
+                        "number": -1
+                    },
+                    "deltas": {
+                        "msSinceLast": 855000,
+                        "rollingAverageMs": 855000,
+                        "rollingStDevMs": null
+                    }
+                }
+            ]
+        }
+    ],
+    "counts": {
+        "commits": 6,
+        "cards": 1,
+        "pullRequests": 4
+    }
+}
