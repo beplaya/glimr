@@ -1,12 +1,10 @@
 var expect = require('expect.js'),
 fs = require('fs'),
-glimr = require(__dirname + '/../glimr/glimr.js')();
+glimrBuild = require(__dirname + '/../glimr/glimr_build.js')();
 var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
-nitLogs.logObjects = glimr.toLogObjectsArray(nitLogs.content, true);
-nitLogs.cards = glimr.cards.findUniqueCards("NIT", nitLogs.logObjects);
-
-
+nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content, true);
+nitLogs.cards = glimrBuild.cards.findUniqueCards("NIT", nitLogs.logObjects);
 
 
 describe('cards', function(){

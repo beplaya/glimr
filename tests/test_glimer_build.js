@@ -1,11 +1,11 @@
 
 var expect = require('expect.js'),
 fs = require('fs'),
-glimr = require(__dirname + '/../glimr/glimr.js')();
+glimrBuild = require(__dirname + '/../glimr/glimr_build.js')();
 
 var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
-nitLogs.logObjects = glimr.toLogObjectsArray(nitLogs.content);
+nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content);
 
 
 describe('Log Objectifier', function(){
@@ -38,6 +38,7 @@ describe('Log Objectifier', function(){
         expect("0~" + nitLogs.logObjects[0].message).to.equal("0~"+"the commit message\n\n    is here and should all be captured");
     });
 
+
     it('should objectify commit and know if it is a pull request',function(){
         expect("0~" + nitLogs.logObjects[0].pullRequest.isPullRequest).to.equal("0~" + false);
         expect("0~" + nitLogs.logObjects[0].pullRequest.number).to.equal("0~" + "-1");
@@ -49,5 +50,19 @@ describe('Log Objectifier', function(){
                 expect(i).to.equal(5);
             }
         }
+    });
+
+    it('should objectify commit messages within dates',function(){
+        //793013f722b36baa320fd7c0f8b2bd7130617407 start Feb 1
+        //4ee4f7658f6ef29d585f6a84e7d20acf25cc2c03 end Feb 3
+
+        var logObjectsWithinDatesEndStart = glimrBuild.toLogObjectsArray(nitLogs.content,
+            new Date("Wed Feb 3 17:00:09 2016 -0500"), new Date("Mon Feb 1 22:01:42 2016 -0500"));
+        var logObjectsWithinDatesStartEnd = glimrBuild.toLogObjectsArray(nitLogs.content,
+            new Date("Mon Feb 1 22:01:42 2016 -0500"), new Date("Wed Feb 3 17:00:09 2016 -0500"));
+
+        expect(logObjectsWithinDatesEndStart.length).to.equal(9);
+        expect(logObjectsWithinDatesStartEnd.length).to.equal(9);
+
     });
 });

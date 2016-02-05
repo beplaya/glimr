@@ -9,7 +9,6 @@ module.exports = function(){
     };
 
     DELTAS.findDeltas = function(logObjects) {
-        //var s = "index, deltams";
         for(var i=0; i<logObjects.length; i++) {
             logObjects[i].deltas = {
                 msSinceLast : 0
@@ -20,10 +19,8 @@ module.exports = function(){
                 var previousDate = previousLog.date;
                 var currentDate = logObjects[i].date;
                 logObjects[i].deltas.msSinceLast = Math.abs(currentDate.getTime() - previousDate.getTime());
-                //s += ("\n"+i+", "+logObjects[i].deltas.msSinceLast);
             }
         }
-        //require('fs').writeFileSync("./rrr.csv", s);
         return logObjects;
     };
 

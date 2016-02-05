@@ -1,17 +1,16 @@
 module.exports = function() {
-    var GLIMR = {};
-    GLIMR.deltas = require(__dirname + "/lib/deltas.js")();
-    GLIMR.cards = require(__dirname + "/lib/cards.js")();
+    var GLIMRB = {};
+    GLIMRB.deltas = require(__dirname + "/lib/deltas.js")();
+    GLIMRB.cards = require(__dirname + "/lib/cards.js")();
+    GLIMRB.dateCommon = require(__dirname + "/lib/date_common.js")();
 
-    GLIMR.toLogObjectsArray = function(logOutput, withDeltas) {
-        var logObjects = GLIMR.build(logOutput);
-        if(withDeltas){
-            logObjects = GLIMR.deltas.addDeltaInfo(logObjects);
-        }
+    GLIMRB.toLogObjectsArray = function(logOutput, date1, date2) {
+        var logObjects = GLIMRB.build(logOutput, date1, date2);
         return logObjects;
     };
 
-    GLIMR.build = function(logOutput) {
+    GLIMRB.build = function(logOutput, date1, date2) {
+        console.log(date1, date2);
         var entryTextBlocks = logOutput.split("\ncommit ");
         var logObjects = [];
         var index = 0;
@@ -20,7 +19,7 @@ module.exports = function() {
             if(entryLines.length===0) {
                 continue;
             } else {
-                var entryObj = GLIMR.createEntry(entryLines);
+                var entryObj = GLIMRB.createEntry(entryLines);
                 logObjects[index] = entryObj;
                 index++;
             }
@@ -28,10 +27,19 @@ module.exports = function() {
         logObjects = logObjects.sort(function(a, b){
             return a.date.getTime() < b.date.getTime() ? 1 : (a.date.getTime() === b.date.getTime() ? 0 : -1);
         });
-        return logObjects;
+        var finalLogObjects = logObjects;
+        if(date1 && date2){
+            finalLogObjects = [];
+            for(var i=0; i<logObjects.length; i++){
+                if(GLIMRB.dateCommon.isWithin(logObjects[i].date, date1, date2)){
+                    finalLogObjects.push(logObjects[i]);
+                }
+            }
+        }
+        return finalLogObjects;
     };
 
-    GLIMR.createEntry = function(entryLines) {
+    GLIMRB.createEntry = function(entryLines) {
         var entry = {};
         var lines = entryLines.split("\n");
         for(var i=0; i<lines.length; i++){
@@ -50,11 +58,11 @@ module.exports = function() {
         }
         entry.message = entryLines.split("Date: ")[1];
         entry.message = entry.message.substring(entry.message.indexOf("\n\n")+"\n\n".length, entry.message.length).trim();
-        entry.pullRequest = GLIMR.getPullRequestInfo(entry.message);
+        entry.pullRequest = GLIMRB.getPullRequestInfo(entry.message);
         return entry;
     };
 
-    GLIMR.getPullRequestInfo = function(message) {
+    GLIMRB.getPullRequestInfo = function(message) {
         var pullRequest = {
             isPullRequest : false,
             number : -1
@@ -79,5 +87,5 @@ module.exports = function() {
         return pullRequest;
     };
 
-    return GLIMR;
+    return GLIMRB;
 }
