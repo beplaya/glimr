@@ -11,9 +11,9 @@ module.exports = function(){
             var row = "\n";
             row += lo.date;
             row += "," + lo.commit;
-            row += "," + lo.author.name;
-            row += "," + lo.author.email;
-            row += "," + lo.message.replace(/,/g, "").replace(/\n/g, "").trim();
+            row += "," + CSV.noCommas(lo.author.name);
+            row += "," + CSV.noCommas(lo.author.email);
+            row += "," + CSV.noCommas(lo.message.replace(/,/g, "")).replace(/\n/g, "").trim();
             row += "," + lo.pullRequest.isPullRequest;
             row += "," + lo.pullRequest.number;
             row += "," + lo.deltas.msSinceLast;
@@ -30,8 +30,8 @@ module.exports = function(){
         for(var i=0; i<authors.length; i++) {
             var a = authors[i];
             var row = "\n";
-            row += a.name;
-            row += "," + a.email;
+            row += CSV.noCommas(a.name);
+            row += "," + CSV.noCommas(a.email);
             row += "," + a.activity.contribution.total;
             row += "," + a.activity.contribution.totalCommitsByAll;
             row += "," + a.activity.contribution.fractionOfContribution;
@@ -55,6 +55,11 @@ module.exports = function(){
         }
         return csv;
     };
+
+    CSV.noCommas = function(str) {
+        str = str || "";
+        return str.replace(/,/g, "").trim();
+    }
 
     return CSV;
 }
