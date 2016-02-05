@@ -1,11 +1,11 @@
 
 var expect = require('expect.js'),
 fs = require('fs'),
-glimr = require(__dirname + '/../glimr/glimr.js')();
+glimrBuild = require(__dirname + '/../glimr/glimr_build.js')();
 
 var nitLogs = {};
 nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
-nitLogs.logObjects = glimr.toLogObjectsArray(nitLogs.content);
+nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content);
 
 
 describe('Log Objectifier', function(){
@@ -56,9 +56,9 @@ describe('Log Objectifier', function(){
         //793013f722b36baa320fd7c0f8b2bd7130617407 start Feb 1
         //4ee4f7658f6ef29d585f6a84e7d20acf25cc2c03 end Feb 3
 
-        var logObjectsWithinDatesEndStart = glimr.toLogObjectsArray(nitLogs.content,
+        var logObjectsWithinDatesEndStart = glimrBuild.toLogObjectsArray(nitLogs.content,
             new Date("Wed Feb 3 17:00:09 2016 -0500"), new Date("Mon Feb 1 22:01:42 2016 -0500"));
-        var logObjectsWithinDatesStartEnd = glimr.toLogObjectsArray(nitLogs.content,
+        var logObjectsWithinDatesStartEnd = glimrBuild.toLogObjectsArray(nitLogs.content,
             new Date("Mon Feb 1 22:01:42 2016 -0500"), new Date("Wed Feb 3 17:00:09 2016 -0500"));
 
         expect(logObjectsWithinDatesEndStart.length).to.equal(9);
