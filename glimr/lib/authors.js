@@ -8,7 +8,7 @@ module.exports = function(){
             var fractionOfContribution = 1/logObjects.length;
             if(existingAuthorIndex == -1){
                 commitAuthor.activity = {
-                        commits : [logObjects[i]],
+                        commits : [logObjects[i].commit],
                         contribution : {
                             total : 1,
                             totalCommitsByAll : logObjects.length,
@@ -17,7 +17,7 @@ module.exports = function(){
                     };
                 authors.push(commitAuthor);
             } else {
-                authors[existingAuthorIndex].activity.commits.push(logObjects[i]);
+                authors[existingAuthorIndex].activity.commits.push(logObjects[i].commit);
                 var newTotal = authors[existingAuthorIndex].activity.contribution.total + 1;
                 authors[existingAuthorIndex].activity.contribution.total = newTotal;
                 authors[existingAuthorIndex].activity.contribution.fractionOfContribution = newTotal / logObjects.length;
