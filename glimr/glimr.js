@@ -2,13 +2,14 @@ module.exports = function() {
     var GLIMR = {};
     GLIMR.deltas = require(__dirname + "/lib/deltas.js")();
     GLIMR.cards = require(__dirname + "/lib/cards.js")();
+    GLIMR.dateCommon = require(__dirname + "/lib/date_common.js")();
 
-    GLIMR.toLogObjectsArray = function(logOutput) {
-        var logObjects = GLIMR.build(logOutput);
+    GLIMR.toLogObjectsArray = function(logOutput, date1, date2) {
+        var logObjects = GLIMR.build(logOutput, date1, date2);
         return logObjects;
     };
 
-    GLIMR.build = function(logOutput) {
+    GLIMR.build = function(logOutput, date1, date2) {
         var entryTextBlocks = logOutput.split("\ncommit ");
         var logObjects = [];
         var index = 0;
@@ -25,7 +26,16 @@ module.exports = function() {
         logObjects = logObjects.sort(function(a, b){
             return a.date.getTime() < b.date.getTime() ? 1 : (a.date.getTime() === b.date.getTime() ? 0 : -1);
         });
-        return logObjects;
+        var finalLogObjects = logObjects;
+        if(date1 && date2){
+            finalLogObjects = [];
+            for(var i=0; i<logObjects.length; i++){
+                if(GLIMR.dateCommon.isWithin(logObjects[i].date, date1, date2)){
+                    finalLogObjects.push(logObjects[i]);
+                }
+            }
+        }
+        return finalLogObjects;
     };
 
     GLIMR.createEntry = function(entryLines) {
