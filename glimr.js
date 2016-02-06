@@ -76,6 +76,7 @@ module.exports = function() {
         R.logObjects = glimrBuild.deltas.addDeltaInfo(R.logObjects);
         R.cards = glimrBuild.cards.findUniqueCards(projectKey, R.logObjects);
 
+
         R.counts = {
             commits : R.logObjects.length,
             cards : R.cards.length,
