@@ -3,7 +3,10 @@ module.exports = function(){
     AUTHORS.findUniqueAuthors = function(logObjects) {
         var authors = [];
         for(var i=0; i<logObjects.length; i++) {
-            var commitAuthor = logObjects[i].author;
+            var commitAuthor = {
+                name : logObjects[i].author.name,
+                email : logObjects[i].author.email
+            }
             var existingAuthorIndex = AUTHORS.findAuthorIndex(authors, commitAuthor);
             var fractionOfContribution = 1/logObjects.length;
             if(existingAuthorIndex == -1){
