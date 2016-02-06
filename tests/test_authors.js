@@ -10,9 +10,6 @@ describe('cards', function(){
 
     it('should a list of unique authors',function(){
         expect(nitLogs.authors.length).to.equal(5);
-        //for(var i=0; i<nitLogs.authors.length; i++) {
-        //    console.log(nitLogs.authors[i].activity.contribution);
-        //}
     });
 
 });

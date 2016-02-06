@@ -6,7 +6,6 @@ nitLogs.content = fs.readFileSync(__dirname + "/data/nitlogs.txt").toString();
 nitLogs.logObjects = glimrBuild.toLogObjectsArray(nitLogs.content);
 nitLogs.deltaLogObjects = glimrBuild.deltas.addDeltaInfo(nitLogs.logObjects);
 
-
 describe('Deltas', function(){
 
     it('should find delta ms between logs',function(){

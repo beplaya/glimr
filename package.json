@@ -1,6 +1,6 @@
 {
   "name": "glimr",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "Git Log Inferred Metrics and Reports Plugin for nit_for_git https://github.com/beplaya/glimr",
   "main": "glimr/glimr.js",
   "dependencies": {
