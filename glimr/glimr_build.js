@@ -12,7 +12,6 @@ module.exports = function() {
     };
 
     GLIMRB.build = function(logOutput, date1, date2) {
-        console.log(date1, date2);
         var entryTextBlocks = logOutput.split("\ncommit ");
         var logObjects = [];
         var index = 0;
