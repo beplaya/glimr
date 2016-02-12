@@ -2,7 +2,7 @@ module.exports = function(){
     var G = {};
     G.glimrBuild = require(__dirname + '/glimr/glimr_build.js')();
 
-    G.analyzeLogs = function(logContents, options){
+    G.analyzeLogs = function(logContents, projectKey, options){
         var R = options;
         R.logObjects = G.glimrBuild.toLogObjectsArray(logContents, R.startDate, R.endDate);
         R.authors = G.glimrBuild.authors.findUniqueAuthors(R.logObjects);
