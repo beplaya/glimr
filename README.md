@@ -3,7 +3,7 @@ Git Log Inferred Metrics and Reports
 
 ```npm install glimr```
 
-```node glimr <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
+```node glimr-cli <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
 
 ## Outputs:
 
