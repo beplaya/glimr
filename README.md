@@ -1,8 +1,10 @@
 # G.L.I.M.R.
-Git Log Inferred Metrics and Reports
+##### Git Log Inferred Metrics and Reports
 
 ```npm install glimr```
+``` require('glimr'); ```
 
+##### CLI
 ```node glimr-cli <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
 
 ## Outputs:
@@ -42,9 +44,9 @@ Git Log Inferred Metrics and Reports
         }, ...],
     "counts":
         "counts": {
-            "commits": 363,
-            "cards": 2,
-            "pullRequests": 82
+            "commits": INT,
+            "cards": INT,
+            "pullRequests": INT
         }
     }
     ```
