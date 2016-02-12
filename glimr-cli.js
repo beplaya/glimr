@@ -71,7 +71,7 @@ module.exports = function() {
         }
         var content = fs.readFileSync(filePath).toString();
         var glimr = require(__dirname + '/glimr.js')();
-        R = glimr.analyzeLogs(content, R);
+        R = glimr.analyzeLogs(content, projectKey, R);
         fs.writeFileSync(filePathOut.authors.json, JSON.stringify(R.authors, 0, 4));
         fs.writeFileSync(filePathOut.authors.csv, glimr.glimrBuild.glimrCSV.createAuthors(R.authors));
 
