@@ -5,6 +5,7 @@ module.exports = function() {
     GLIMRB.authors = require(__dirname + "/lib/authors.js")();
     GLIMRB.dateCommon = require(__dirname + "/lib/date_common.js")();
     GLIMRB.glimrCSV = require(__dirname + "/lib/glimr_csv.js")();
+    GLIMRB.punchCard = require(__dirname + "/lib/punch_card.js")();
 
     GLIMRB.toLogObjectsArray = function(logOutput, date1, date2) {
         var logObjects = GLIMRB.build(logOutput, date1, date2);

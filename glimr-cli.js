@@ -32,6 +32,9 @@ module.exports = function() {
             cards : {
                 json : DEFAULT_FILE_PATH+"_cards.json",
                 csv : DEFAULT_FILE_PATH+"_cards.csv"
+            },
+            punchCard : {
+                json : DEFAULT_FILE_PATH+"_punch_card.json"
             }
         };
 
@@ -77,6 +80,8 @@ module.exports = function() {
 
         fs.writeFileSync(filePathOut.cards.json, JSON.stringify(R.cards, 0, 4));
         fs.writeFileSync(filePathOut.cards.csv, glimr.glimrBuild.glimrCSV.createCards(R.cards));
+
+        fs.writeFileSync(filePathOut.punchCard.json, JSON.stringify(R.punchCard, 0, 4));
 
         fs.writeFileSync(filePathOut.all.json, JSON.stringify(R, 0, 4));
         fs.writeFileSync(filePathOut.logs.json, JSON.stringify(R.logObjects, 0, 4));
