@@ -60,6 +60,7 @@ module.exports = function() {
     }
     //
     try {
+        var glimr = require(__dirname + '/glimr.js')();
         var startDate = new Date(time.start *1);
         var endDate = new Date(time.end*1);
 
@@ -73,7 +74,8 @@ module.exports = function() {
             endDate = undefined;
         }
         var content = fs.readFileSync(filePath).toString();
-        var glimr = require(__dirname + '/glimr.js')();
+        R.startDate = startDate;
+        R.endDate = endDate;
         R = glimr.analyzeLogs(content, projectKey, R);
         fs.writeFileSync(filePathOut.authors.json, JSON.stringify(R.authors, 0, 4));
         fs.writeFileSync(filePathOut.authors.csv, glimr.glimrBuild.glimrCSV.createAuthors(R.authors));
