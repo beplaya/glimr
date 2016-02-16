@@ -8,6 +8,7 @@ module.exports = function(){
         R.authors = G.glimrBuild.authors.findUniqueAuthors(R.logObjects);
         R.logObjects = G.glimrBuild.deltas.addDeltaInfo(R.logObjects);
         R.cards = G.glimrBuild.cards.findUniqueCards(projectKey, R.logObjects);
+        R.punchCard = G.glimrBuild.punchCard.createPunchcard(R.logObjects);
 
         R.counts = {
             commits : R.logObjects.length,
