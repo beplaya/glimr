@@ -21,7 +21,7 @@ I wanted to create a tool that uses real data to easily and plainly show the mos
     - Turnover, hiring, firing inferred from commit authors
     - Rework by detecting multiple merges
     - Infer estimation practices from changes in commits per story point over time
- - Incentives good and compliant practices:
+ - Incentivizes good and compliant practices:
     - Bad -> Linking lines of code to performance encourages poor practices.
     - Good -> Linking commit frequency and commit message compliance to performance encourages good practices.
  - Avoids any barriers to transparency (needs minimal access rights.  If you can run git log, you can see the GLIMR data)
