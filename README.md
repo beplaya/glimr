@@ -7,6 +7,28 @@
 ##### CLI
 ```node glimr-cli <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
 
+
+#### WHY GLIMR???
+
+Most organizations tend abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  Even though story points measure complexity and are a trailing metric, they’re used for prediction, treated as time, and rarely understood.  Velocity trends are sums of guesses which are never updated, and rarely understood because the truth behind the scenes is lost at the water cooler or simply never understood.  I’ve worked for 7 different companies as a software engineer and I’m convinced that even in the best environments there are usually only two conclusions that management arrives at from velocity:
+ - Velocity is up = the team is working hard and is super smart
+ - Velocity is down = the team is lazy and dumb
+
+I wanted to create a tool that uses real data to easily and plainly show the most truth surrounding velocity.  GLIMR does this because it:
+
+ - Gives insight into productivity and team/project health
+    - When are people committing?
+    - Turnover, hiring, firing inferred from commit authors
+    - Rework by detecting multiple merges
+    - Infer estimation practices from changes in commits per story point over time
+ - Incentives good and compliant practices:
+    - Bad -> Linking lines of code to performance encourages poor practices.
+    - Good -> Linking commit frequency and commit message compliance to performance encourages good practices.
+ - Avoids any barriers to transparency (needs minimal access rights.  If you can run git log, you can see the GLIMR data)
+ - Avoids any barriers to use
+    - It is completely agnostic (barring git)
+    - Does not need access to multiple organizational systems.  Can be run locally in milliseconds.
+
 ## Outputs:
 
 #### glimr_results_all.json
