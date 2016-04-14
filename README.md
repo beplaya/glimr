@@ -10,7 +10,7 @@
 
 #### WHY GLIMR???
 
-Most organizations tend abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  Even though story points measure complexity and are a trailing metric, they’re used for prediction, treated as time, and rarely understood.  Velocity trends are sums of guesses which are never updated, and rarely understood because the truth behind the scenes is lost at the water cooler or simply never understood.  I’ve worked for 7 different companies as a software engineer and I’m convinced that even in the best environments there are usually only two conclusions that management arrives at from velocity:
+Most organizations tend to abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  Even though story points measure complexity and are a trailing metric, they’re used for prediction, treated as time, and rarely understood.  Velocity trends are sums of guesses which are never updated, and rarely understood because the truth behind the scenes is lost at the water cooler or simply never understood.  I’ve worked for 7 different companies as a software engineer and I’m convinced that even in the best environments there are usually only two conclusions that management arrives at from velocity:
  - Velocity is up = the team is working hard and is super smart
  - Velocity is down = the team is lazy and dumb
 
