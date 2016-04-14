@@ -18,7 +18,7 @@ I’ve worked for many different companies as a software engineer and I’m conv
  - Velocity is up = the team is working hard and is super smart
  - Velocity is down = the team is lazy and dumb
 
-I wanted to create a tool that uses real data to easily and plainly show the most truth surrounding velocity.  GLIMR does this because it:
+GLIMR is a tool that uses real data to easily and plainly show the most truth surrounding velocity.  GLIMR does this because it:
 
  - Gives insight into productivity and team/project health
     - When are people committing?
