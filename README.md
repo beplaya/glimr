@@ -10,11 +10,15 @@
 
 #### WHY GLIMR???
 
-Most organizations tend to abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  Even though story points measure complexity and are a trailing metric, they’re used for prediction, treated as time, and rarely understood.  Velocity trends are sums of guesses which are never updated, and rarely understood because the truth behind the scenes is lost at the water cooler or simply never understood.  I’ve worked for 7 different companies as a software engineer and I’m convinced that even in the best environments there are usually only two conclusions that management arrives at from velocity:
+Most organizations tend to abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  
+Even though story points measure complexity and are a trailing metric they’re used for prediction and treated as time.  Velocity is a sum of guesses which are never revisited or rexamined.  Velocity isn't bad, but it tends to be used improperly.  The truth behind the scenes is lost at the water cooler or simply never investigated.  Assumptions that built velocity reports are treated as facts and it is difficult to see the why behind velocity trends.
+
+I’ve worked for many different companies as a software engineer and I’m convinced that even in the best environments there are usually only two conclusions that management arrives at from velocity:
+
  - Velocity is up = the team is working hard and is super smart
  - Velocity is down = the team is lazy and dumb
 
-I wanted to create a tool that uses real data to easily and plainly show the most truth surrounding velocity.  GLIMR does this because it:
+GLIMR is a tool that uses real data to easily and plainly show the most truth surrounding velocity.  GLIMR does this because it:
 
  - Gives insight into productivity and team/project health
     - When are people committing?
