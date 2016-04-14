@@ -8,7 +8,7 @@
 ```node glimr-cli <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
 
 
-#### WHY GLIMR???
+#### WHY GLIMR???  [~Follow the discussion on Reddit](https://www.reddit.com/r/agile/comments/4ergjk/git_logs_insight_into_velocity/)
 
 Most organizations tend to abuse story points and measure productivity in frankly ridiculous ways (e.g. lines of code).  
 Even though story points measure complexity and are a trailing metric they’re used for prediction and treated as time.  Velocity is a sum of guesses which are never revisited or rexamined.  Velocity isn't bad, but it tends to be used improperly.  The truth behind the scenes is lost at the water cooler or simply never investigated.  Assumptions that built velocity reports are treated as facts and it is difficult to see the why behind velocity trends.
