@@ -15,6 +15,8 @@ module.exports = function GlimrBuild() {
     };
 
     this.build = function(logOutput, date1, date2) {
+        logOutput = logOutput.replace(/\r\n/g, '\n');
+
         var entryTextBlocks = logOutput.split("\ncommit ");
         var logObjects = [];
         var index = 0;
