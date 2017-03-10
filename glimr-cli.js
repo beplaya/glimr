@@ -60,7 +60,7 @@ module.exports = function() {
     }
     //
     try {
-        var glimr = require(__dirname + '/glimr.js')();
+        var glimr = new require(__dirname + '/glimr.js')();
         var startDate = new Date(time.start *1);
         var endDate = new Date(time.end*1);
 
