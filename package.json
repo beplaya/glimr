@@ -14,7 +14,7 @@
     "test": "mocha tests",
     "testRun": "node glimr-cli.js NIT ./tests/data/nitlogs.txt 0 0"
   },
-  "url": "https://github.com/beplaya/glimr",
   "author": "beplaya",
+  "url": "https://github.com/beplaya/glimr",
   "license": "MIT"
 }
