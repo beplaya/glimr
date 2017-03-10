@@ -1,18 +1,22 @@
-module.exports = function() {
-    var GLIMRB = {};
-    GLIMRB.deltas = require(__dirname + "/lib/deltas.js")();
-    GLIMRB.cards = require(__dirname + "/lib/cards.js")();
-    GLIMRB.authors = require(__dirname + "/lib/authors.js")();
-    GLIMRB.dateCommon = require(__dirname + "/lib/date_common.js")();
-    GLIMRB.glimrCSV = require(__dirname + "/lib/glimr_csv.js")();
-    GLIMRB.punchCard = require(__dirname + "/lib/punch_card.js")();
+module.exports = function GlimrBuild() {
+    if(!(this instanceof GlimrBuild)) {
+        return new GlimrBuild();
+    }
+    this.deltas = require(__dirname + "/lib/deltas.js")();
+    this.cards = require(__dirname + "/lib/cards.js")();
+    this.authors = require(__dirname + "/lib/authors.js")();
+    this.dateCommon = require(__dirname + "/lib/date_common.js")();
+    this.glimrCSV = require(__dirname + "/lib/glimr_csv.js")();
+    this.punchCard = require(__dirname + "/lib/punch_card.js")();
 
-    GLIMRB.toLogObjectsArray = function(logOutput, date1, date2) {
-        var logObjects = GLIMRB.build(logOutput, date1, date2);
+    this.toLogObjectsArray = function(logOutput, date1, date2) {
+        var logObjects = this.build(logOutput, date1, date2);
         return logObjects;
     };
 
-    GLIMRB.build = function(logOutput, date1, date2) {
+    this.build = function(logOutput, date1, date2) {
+        logOutput = logOutput.replace(/\r\n/g, '\n');
+
         var entryTextBlocks = logOutput.split("\ncommit ");
         var logObjects = [];
         var index = 0;
@@ -21,7 +25,7 @@ module.exports = function() {
             if(entryLines.length===0) {
                 continue;
             } else {
-                var entryObj = GLIMRB.createEntry(entryLines);
+                var entryObj = this.createEntry(entryLines);
                 logObjects[index] = entryObj;
                 index++;
             }
@@ -33,7 +37,7 @@ module.exports = function() {
         if(date1 && date2){
             finalLogObjects = [];
             for(var i=0; i<logObjects.length; i++){
-                if(GLIMRB.dateCommon.isWithin(logObjects[i].date, date1, date2)){
+                if(this.dateCommon.isWithin(logObjects[i].date, date1, date2)){
                     finalLogObjects.push(logObjects[i]);
                 }
             }
@@ -41,7 +45,7 @@ module.exports = function() {
         return finalLogObjects;
     };
 
-    GLIMRB.createEntry = function(entryLines) {
+    this.createEntry = function(entryLines) {
         var entry = {};
         var lines = entryLines.split("\n");
         for(var i=0; i<lines.length; i++){
@@ -60,11 +64,11 @@ module.exports = function() {
         }
         entry.message = entryLines.split("Date: ")[1];
         entry.message = entry.message.substring(entry.message.indexOf("\n\n")+"\n\n".length, entry.message.length).trim();
-        entry.pullRequest = GLIMRB.getPullRequestInfo(entry.message);
+        entry.pullRequest = this.getPullRequestInfo(entry.message);
         return entry;
     };
 
-    GLIMRB.getPullRequestInfo = function(message) {
+    this.getPullRequestInfo = function(message) {
         var pullRequest = {
             isPullRequest : false,
             number : -1
@@ -88,6 +92,4 @@ module.exports = function() {
         }
         return pullRequest;
     };
-
-    return GLIMRB;
-}
+};
