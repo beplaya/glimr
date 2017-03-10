@@ -1,13 +1,16 @@
-module.exports = function(){
-    var AUTHORS = {};
-    AUTHORS.findUniqueAuthors = function(logObjects) {
+module.exports = function Authors(){
+    if(!(this instanceof Authors)) {
+        return new Authors();
+    }
+
+    this.findUniqueAuthors = function(logObjects) {
         var authors = [];
         for(var i=0; i<logObjects.length; i++) {
             var commitAuthor = {
                 name : logObjects[i].author.name,
                 email : logObjects[i].author.email
             }
-            var existingAuthorIndex = AUTHORS.findAuthorIndex(authors, commitAuthor);
+            var existingAuthorIndex = this.findAuthorIndex(authors, commitAuthor);
             var fractionOfContribution = 1/logObjects.length;
             if(existingAuthorIndex == -1){
                 commitAuthor.activity = {
@@ -29,7 +32,7 @@ module.exports = function(){
         return authors;
     };
 
-    AUTHORS.findAuthorIndex = function(authors, commitAuthor) {
+    this.findAuthorIndex = function(authors, commitAuthor) {
         for(var i=0; i<authors.length; i++){
             if(authors[i].name === commitAuthor.name
                 || (authors[i].email.trim().length>0 &&authors[i].email === commitAuthor.email)) {
@@ -38,6 +41,4 @@ module.exports = function(){
         }
         return -1;
     };
-
-    return AUTHORS;
-}
+};

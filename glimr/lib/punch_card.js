@@ -1,8 +1,9 @@
-module.exports = function() {
-    var P = {
-        days : [{name:"sunday"},{name:"monday"},{name:"tuesday"},
-                {name:"wednesday"},{name:"thursday"},{name:"friday"},{name:"saturday"}]
-     };
+module.exports = function PunchCard() {
+    if(!(this instanceof PunchCard)) {
+        return new PunchCard();
+    }
+    this.days = [{name:"sunday"},{name:"monday"},{name:"tuesday"},
+                {name:"wednesday"},{name:"thursday"},{name:"friday"},{name:"saturday"}];
     /*
         {
         "daily" : [
@@ -15,13 +16,13 @@ module.exports = function() {
         }
     */
 
-    P.createPunchcard = function(logObjects) {
+    this.createPunchcard = function(logObjects) {
         var punchCard = { days : []};
         punchCard.sumCommitsInDay = 0;
         punchCard.sumOffHoursCommitsInDay = 0;
-        for(var dayIndex=0; dayIndex<P.days.length; dayIndex++) {
+        for(var dayIndex=0; dayIndex<this.days.length; dayIndex++) {
             punchCard.days.push({
-                    name : P.days[dayIndex].name,
+                    name : this.days[dayIndex].name,
                     dayIndex : dayIndex,
                     numberOfCommits : 0,
                     numberOfOffHoursCommits : 0,
@@ -32,10 +33,10 @@ module.exports = function() {
                 punchCard.days[dayIndex].hourly.push({hour: hour, numberOfCommits:0});
                 for(var j=0; j<logObjects.length; j++) {
                     var logObject = logObjects[j];
-                    if(P.isSameDay(dayIndex, logObject)){
-                        if(P.isSameHour(hour, logObject)){
+                    if(this.isSameDay(dayIndex, logObject)){
+                        if(this.isSameHour(hour, logObject)){
                             punchCard.days[dayIndex].numberOfCommits++;
-                            if(P.isOffHourOrWeekend(dayIndex, logObject)) {
+                            if(this.isOffHourOrWeekend(dayIndex, logObject)) {
                                 punchCard.days[dayIndex].numberOfOffHoursCommits++;
                             }
                             punchCard.days[dayIndex].hourly[hour].numberOfCommits++;
@@ -58,7 +59,7 @@ module.exports = function() {
         //
         //
         //
-        for(var dayIndex=0; dayIndex<P.days.length; dayIndex++) {
+        for(var dayIndex=0; dayIndex<this.days.length; dayIndex++) {
             if(punchCard.sumCommitsInDay!=0) {
                 punchCard.days[dayIndex].fractionOfCommits = punchCard.days[dayIndex].numberOfCommits
                         / punchCard.sumCommitsInDay
@@ -75,21 +76,19 @@ module.exports = function() {
         return punchCard;
     };
 
-    P.isSameHour = function(hour, logObject) {
+    this.isSameHour = function(hour, logObject) {
         return new Date(logObject.date).getHours() == hour;
     };
 
-    P.isSameDay = function(dayIndex, logObject) {
+    this.isSameDay = function(dayIndex, logObject) {
         return new Date(logObject.date).getDay() == dayIndex;
     };
 
-    P.isOffHourOrWeekend = function(dayIndex, logObject) {
+    this.isOffHourOrWeekend = function(dayIndex, logObject) {
         if(dayIndex == 0 || dayIndex == 6){
             return true;
         }
         var hourOfCommit = new Date(logObject.date).getHours();
         return hourOfCommit < 7 || hourOfCommit > 17;
     };
-
-    return P
 };

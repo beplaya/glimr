@@ -1,14 +1,16 @@
-module.exports = function(){
-    var DELTAS = {};
+module.exports = function Deltas(){
+    if(!(this instanceof Deltas)) {
+        return new Deltas();
+    }
 
-    DELTAS.addDeltaInfo = function(logObjects) {
-        logObjects = DELTAS.findDeltas(logObjects);
-        logObjects = DELTAS.findRollingAverageDeltas(logObjects)
-        logObjects = DELTAS.findRollingStDevDeltas(logObjects)
+    this.addDeltaInfo = function(logObjects) {
+        logObjects = this.findDeltas(logObjects);
+        logObjects = this.findRollingAverageDeltas(logObjects)
+        logObjects = this.findRollingStDevDeltas(logObjects)
         return logObjects;
     };
 
-    DELTAS.findDeltas = function(logObjects) {
+    this.findDeltas = function(logObjects) {
         for(var i=0; i<logObjects.length; i++) {
             logObjects[i].deltas = {
                 msSinceLast : 0
@@ -24,7 +26,7 @@ module.exports = function(){
         return logObjects;
     };
 
-    DELTAS.findRollingAverageDeltas = function(logObjects) {
+    this.findRollingAverageDeltas = function(logObjects) {
         var sum = 0;
         var count = 0;
         for(var i=logObjects.length-1; i>=0; i--) {
@@ -39,7 +41,7 @@ module.exports = function(){
         return logObjects;
     };
 
-    DELTAS.findRollingStDevDeltas = function(logObjects) {
+    this.findRollingStDevDeltas = function(logObjects) {
         for(var i=0; i<logObjects.length; i++) {
             var average = logObjects[i].deltas.rollingAverageMs;
             var varianceSum = 0;
@@ -54,6 +56,4 @@ module.exports = function(){
 
         return logObjects;
     };
-
-    return DELTAS;
-}
+};

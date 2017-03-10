@@ -1,6 +1,9 @@
-module.exports = function(){
-    var CARDS = {};
-    CARDS.findUniqueCards = function(projectKey, logObjects) {
+module.exports = function Cards(){
+    if(!(this instanceof Cards)) {
+        return new Cards();
+    }
+
+    this.findUniqueCards = function(projectKey, logObjects) {
         var cards = [];
         var search = projectKey+"-";
         var pullRequestSearch = "Merge pull request #";
@@ -22,7 +25,7 @@ module.exports = function(){
                     if(split && split.length > 1) {
                         var issueNumber = 1*split[1];
                         if(Number.isInteger(issueNumber)){
-                            var existingCardIndex = CARDS.findCardIndex(cards, issueKey);
+                            var existingCardIndex = this.findCardIndex(cards, issueKey);
                             if(existingCardIndex == -1){
                                 cards.push({
                                     key : issueKey,
@@ -44,7 +47,7 @@ module.exports = function(){
         return cards;
     };
 
-    CARDS.findCardIndex = function(cards, issueKey) {
+    this.findCardIndex = function(cards, issueKey) {
         for(var j=0; j<cards.length; j++){
             if(cards[j].key === issueKey){
                 return j;
@@ -53,5 +56,5 @@ module.exports = function(){
         return -1;
     };
 
-    return CARDS;
+    return this;
 }
