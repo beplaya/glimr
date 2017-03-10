@@ -1,12 +1,26 @@
 # G.L.I.M.R.
 ##### Git Log Inferred Metrics and Reports
 
-```npm install glimr```
-``` require('glimr'); ```
+```
+npm install glimr
+```
+
+##### Use in code (Example usage https://github.com/beplaya/Nit -->https://www.npmjs.com/package/nit_for_git)
+```
+var Glimr = require('glimr');
+var glimr = new Glimr();
+```
+```
+/*
+    logContents - string of logs output from 'git log' command
+    projectKey - e.g. "GLIMR".  Your project key used in git logs "GLIMR-101: log message" 
+    returns - glimr analysis object (see results_all.json below)
+*/
+glimr.analyzeLogs(logContents, projectKey, { startDate : startDate, endDate : endDate});
+```
 
 ##### CLI
 ```node glimr-cli <project_key> <file_containing_logs> <start UNIX epoch OR 0 for all> <end UNIX epoch OR 0 for all> ```
-
 
 #### WHY GLIMR???
   ~Follow the discussion on Reddit
