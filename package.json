@@ -1,6 +1,6 @@
 {
   "name": "glimr",
-  "version": "1.0.27",
+  "version": "1.1.01",
   "description": "Git Log Inferred Metrics and Reports Plugin for nit_for_git https://github.com/beplaya/glimr",
   "main": "glimr.js",
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha tests",
-    "testRun": "node glimr.js NIT ./tests/data/nitlogs.txt 0 0"
+    "testRun": "node glimr-cli.js NIT ./tests/data/nitlogs.txt 0 0"
   },
   "url": "https://github.com/beplaya/glimr",
   "author": "beplaya",

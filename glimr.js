@@ -2,7 +2,7 @@ module.exports = function Glimr(){
     if(!(this instanceof Glimr)) {
         return new Glimr();
     }
-    this.glimrBuild = require(__dirname + '/glimr/glimr_build.js')();
+    this.glimrBuild = new require(__dirname + '/glimr/glimr_build.js')();
 
     this.analyzeLogs = function(logContents, projectKey, options){
         var self = this;
